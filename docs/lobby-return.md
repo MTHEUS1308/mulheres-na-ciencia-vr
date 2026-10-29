@@ -1,21 +1,26 @@
-# Retorno acessível ao lobby
+# Placas fixas de retorno ao lobby
 
-Componente compartilhado `shared/ui/lobby-return.js`, integrado em `shared/app.js`. Nenhum arquivo dos quatro ambientes, partículas, painéis, ampliação, configuração de qualidade ou duração dos portais foi alterado.
+Componente compartilhado `shared/ui/lobby-return.js`, integrado em `shared/app.js`. A placa é filha da cena global, não da câmera. O gerenciador escolhe sua posição uma única vez em `onActive(id)` por `home.reset(id)`.
 
-O botão usa ícone de casa desenhado em canvas, texto “Voltar ao Lobby”, base escura semitransparente e moldura azul luminosa separada. Dimensões visuais: 0,82 × 0,192 m; hotspot: 0,96 × 0,28 m. A posição relativa à direção horizontal é (0,35; −0,45; −2,35) m, a aproximadamente 2,42 m da câmera. Não acompanha a inclinação vertical: o visitante pode olhar um pouco para baixo para alcançá-lo.
+Posições permanentes (x, y, z), em metros:
 
-Uma zona morta de 8° evita acompanhar pequenos movimentos de cabeça. Mudanças maiores são suavizadas exponencialmente (constante de 0,32 s). O movimento horizontal pausa enquanto a mira seleciona o botão. A identidade do alvo permanece estável; o gaze existente completa 1200 ms, reinicia ao desviar e aciona a navegação uma única vez.
+| Sala | Posição | Piso |
+| --- | --- | --- |
+| Marie Curie | −0,95; −1,46; −1,30 | −1,65 |
+| Hedy Lamarr | −0,95; −1,46; −1,20 | −1,65 |
+| Katherine Johnson | −1,10; −1,43; −1,55 | deck: −1,625 |
 
-Materiais transparentes com depthTest/depthWrite desativados e renderOrder 500/501 mantêm o botão visível sobre decoração, com a mira em 1000/1001 e o fade em 2000. O hotspot tem prioridade sobre alvos decorativos na mesma direção; seus elementos visuais não recebem raycasts. Durante painéis, imagens ampliadas, menu de qualidade, configurações ou transições, o botão e seu hotspot ficam desativados. Fechar o modal devolve o retorno à visita sem interferir na imagem. Uma trava de reentrada exige que a mira saia do hotspot antes de armar o gaze recém-disponível; isso evita aproveitar acidentalmente o olhar que fechou o painel.
+As placas ficam à frente e à esquerda do visitante, na circulação anterior às mesas/pedestal da Terra. A superfície é inclinada uma única vez em direção ao ponto fixo (0,0,0), para facilitar leitura e raycasting. Não há cálculo de pose a partir da câmera, suavização, lerp ou atualização de posição/orientação por frame. Ao olhar para outra direção a placa fica para trás, permanecendo no mesmo lugar.
 
-O gerenciador existente faz fade-out, desativa/libera a sala, reativa o lobby e faz fade-in. Renderizador, câmera, controles, sensores e estado Cardboard são mantidos. O componente fica oculto no próprio lobby. Demais controles globais continuam nas posições anteriores.
+Design preservado: ícone de casa, texto “Voltar ao Lobby”, fundo escuro, moldura azul e animação da borda. Visual: 0,82 × 0,192 m; hotspot: 0,96 × 0,28 m. A câmera é usada apenas para o raycast. O update controla somente disponibilidade e a trava de reentrada após modais. O feedback anima somente o brilho.
 
-Restauração anterior a esta alteração: `.runtime/restore-before-lobby-return-20261029.tar.gz` (contém o `shared/app.js` original).
+Gaze: 1200 ms, uma ativação por seleção. Painéis/imagens/menu têm prioridade e desabilitam a placa temporariamente, sem mudar sua posição. O gerenciador existente mantém fade-out/in e retorno sem recarregamento, preservando câmera, renderizador, sensores e Cardboard. Portais do lobby continuam em 3000 ms; a placa fica desativada no lobby.
 
-## Verificações
+Restauração anterior: `.runtime/restore-before-floor-return.tar.gz`.
 
-- `npm test`: gaze, modal, duração dos portais, gerenciador e conteúdos existentes.
-- `npm run build`: build de produção; aviso existente de tamanho do pacote Three.js.
-- `node tests/lobby-return-review.mjs`: requer Vite na porta 5173 e Chrome com CDP na porta 9222. Verifica as três salas, quatro direções horizontais, zona morta, área ampliada, modal/imagem/fechamento, gaze real com interrupção e conclusão em 1200 ms, prioridade sobre obstáculo interativo mais próximo, renderização normal e nos dois olhos, retorno sem novo documento, um único canvas, qualidade Alta, câmera fixa e portais em 3000 ms. Relatório e capturas: `artifacts/lobby-return/`.
+## Verificação
 
-A automação usa orientação de câmera controlada pelo teste, sem validar giroscópio físico. Conforto, legibilidade nas lentes, sensores e desempenho precisam de avaliação em Android real com Cardboard.
+- `npm test` e `npm run build`.
+- `node tests/lobby-return-review.mjs`: requer Vite 5173 e Chrome CDP 9222. Compara as matrizes da placa ao girar a câmera em quatro direções; verifica altura de todos os cantos e nove raios contra as malhas reais de cada sala para detectar obstáculos. Também testa painel → ampliação → fechamento, gaze interrompido, retorno único, normal/estéreo, preservação da sessão e dos 3000 ms nos portais. Relatório e capturas em `artifacts/lobby-return/`.
+
+O teste automatizado usa orientação controlada, sem simular validação de sensores físicos. Conforto e desempenho em Android com lentes Cardboard continuam dependendo do teste no aparelho real.

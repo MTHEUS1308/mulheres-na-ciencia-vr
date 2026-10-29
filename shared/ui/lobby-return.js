@@ -1,8 +1,12 @@
 import * as THREE from 'three';
 import {DEFAULT_GAZE_DURATION} from '../vr/config.js';
 
-// Upright, world-space UI: pitch remains free so looking down reaches the button.
-// A yaw dead zone absorbs small head movements; dwell freezes the heading.
+// Fixed world-space floor plaques. These poses never depend on the camera.
+export const LOBBY_RETURN_POSITIONS={
+ 'marie-curie':[-.95,-1.46,-1.30],
+ 'hedy-lamarr':[-.95,-1.46,-1.20],
+ 'katherine-johnson':[-1.10,-1.43,-1.55],
+};
 export function lobbyReturn(scene,camera,targets,navigate){
  const group=new THREE.Group();group.name='Lobby_return_hologram';group.visible=false;scene.add(group);
  function texture(frame=false){
@@ -21,24 +25,20 @@ export function lobbyReturn(scene,camera,targets,navigate){
  const face=visual(texture(),500),border=visual(texture(true),501);border.material.opacity=.18;
  const target=new THREE.Mesh(new THREE.PlaneGeometry(.96,.28),new THREE.MeshBasicMaterial({transparent:true,opacity:0,colorWrite:false,depthTest:false,depthWrite:false}));
  target.name='Lobby_return_hotspot';target.userData.uiRole='lobby-return';target.userData.dwellDuration=DEFAULT_GAZE_DURATION;
- let fired=false,heading=0,last=null,initialized=false,highlight=0,wasAvailable=false;
+ let fired=false,highlight=0,wasAvailable=false,environment=null;
  target.userData.activate=()=>{if(fired||!group.visible||!target.visible)return;fired=true;target.userData.gazeDisabled=true;navigate('lobby');};group.add(target);targets.push(target);
- const euler=new THREE.Euler(0,0,0,'YXZ'),up=new THREE.Vector3(0,1,0),offset=new THREE.Vector3(.55,-.68,-2.75),ray=new THREE.Raycaster(),center=new THREE.Vector2();
- function place(){group.quaternion.setFromAxisAngle(up,heading);group.position.copy(offset).applyQuaternion(group.quaternion).add(camera.position);group.updateMatrixWorld(true);}
+ const ray=new THREE.Raycaster(),center=new THREE.Vector2(),visitor=new THREE.Vector3(0,0,0);
  return {group,target,face,border,
-  reset(){heading=euler.setFromQuaternion(camera.quaternion,'YXZ').y;initialized=true;last=null;fired=false;target.userData.gazeDisabled=false;wasAvailable=false;place();},
+  reset(id=environment){environment=id;fired=false;target.userData.gazeDisabled=false;wasAvailable=false;
+   const position=LOBBY_RETURN_POSITIONS[id];
+   if(position){group.position.set(...position);group.lookAt(visitor);group.updateMatrixWorld(true);}
+  },
   hit(point=center){if(!group.visible||!target.visible||fired)return null;ray.setFromCamera(point,camera);return ray.intersectObject(target,false)[0]?.object??null;},
-  update(time,{available,focus}){
-   group.visible=target.visible=available&&!fired;
+  update({available}){
+   group.visible=target.visible=available&&!!LOBBY_RETURN_POSITIONS[environment]&&!fired;
    if(group.visible&&!wasAvailable)target.userData.gazeHold=true;
    wasAvailable=group.visible;
-   const dt=last===null?0:Math.min(.05,Math.max(0,(time-last)/1000));last=time;
-   if(!initialized)this.reset();
    if(!group.visible)return;
-   const yaw=euler.setFromQuaternion(camera.quaternion,'YXZ').y,delta=Math.atan2(Math.sin(yaw-heading),Math.cos(yaw-heading));
-   const deadZone=THREE.MathUtils.degToRad(12);
-   if(focus!==target&&Math.abs(delta)>deadZone)heading+=(delta-Math.sign(delta)*deadZone)*(1-Math.exp(-dt/ .85));
-   place();
    // Closing a modal must not turn its former close-button gaze into a return.
    // Arm only after the visitor has looked outside the newly available hotspot.
    camera.updateMatrixWorld(true);ray.setFromCamera(center,camera);
