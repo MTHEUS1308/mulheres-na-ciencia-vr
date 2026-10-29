@@ -1,0 +1,267 @@
+{
+  "initial": {
+    "count": 3,
+    "titles": [
+      "Polônio · 1898",
+      "Uma propriedade da matéria",
+      "Instrumentos e investigação"
+    ],
+    "images": [
+      {
+        "src": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp",
+        "width": 1200
+      },
+      {
+        "src": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp",
+        "width": 1200
+      },
+      {
+        "src": "http://localhost:5173/assets/marie-curie/media/curie-electrometer-wellcome.jpg",
+        "width": 443
+      }
+    ],
+    "poses": [
+      [
+        1.03,
+        0,
+        0,
+        0,
+        0,
+        1.03,
+        0,
+        0,
+        0,
+        0,
+        1.03,
+        0,
+        0,
+        0.2,
+        -1.44,
+        1
+      ],
+      [
+        0.5759686905748692,
+        0,
+        -0.853908699731693,
+        0,
+        0,
+        1.03,
+        0,
+        0,
+        0.853908699731693,
+        0,
+        0.5759686905748692,
+        0,
+        -1.19381410447926,
+        0.2,
+        -0.8052377809978754,
+        1
+      ],
+      [
+        0.5759686905748692,
+        0,
+        0.853908699731693,
+        0,
+        0,
+        1.03,
+        0,
+        0,
+        -0.853908699731693,
+        0,
+        0.5759686905748692,
+        0,
+        1.19381410447926,
+        0.2,
+        -0.8052377809978754,
+        1
+      ]
+    ],
+    "targets": [
+      {
+        "role": "image-hotspot",
+        "index": 0,
+        "duration": 1200
+      },
+      {
+        "role": "image-view-hotspot",
+        "index": 0
+      },
+      {
+        "role": "image-return",
+        "index": 0
+      },
+      {
+        "role": "image-hotspot",
+        "index": 1,
+        "duration": 1200
+      },
+      {
+        "role": "image-view-hotspot",
+        "index": 1
+      },
+      {
+        "role": "image-return",
+        "index": 1
+      },
+      {
+        "role": "image-hotspot",
+        "index": 2,
+        "duration": 1200
+      },
+      {
+        "role": "image-view-hotspot",
+        "index": 2
+      },
+      {
+        "role": "image-return",
+        "index": 2
+      }
+    ],
+    "close": 1,
+    "next": 0
+  },
+  "fixed": true,
+  "images": [
+    {
+      "eyes": [
+        {
+          "x": 0.34167072824759537,
+          "y": 0.05555488830183885,
+          "opacity": 1,
+          "width": 1200
+        },
+        {
+          "x": 0.31133511633736005,
+          "y": 0.05555488830183885,
+          "opacity": 1,
+          "width": 1200
+        }
+      ],
+      "allowed": [
+        {
+          "index": 0,
+          "role": "image-view-hotspot"
+        },
+        {
+          "index": 0,
+          "role": "image-return"
+        },
+        {
+          "role": "panel-close"
+        }
+      ],
+      "state": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      }
+    },
+    {
+      "eyes": [
+        {
+          "x": 0.34167072824759515,
+          "y": 0.05555488830183895,
+          "opacity": 1,
+          "width": 1200
+        },
+        {
+          "x": 0.31133511633735983,
+          "y": 0.05555488830183895,
+          "opacity": 1,
+          "width": 1200
+        }
+      ],
+      "allowed": [
+        {
+          "index": 1,
+          "role": "image-view-hotspot"
+        },
+        {
+          "index": 1,
+          "role": "image-return"
+        },
+        {
+          "role": "panel-close"
+        }
+      ],
+      "state": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      }
+    },
+    {
+      "eyes": [
+        {
+          "x": 0.34167072824759537,
+          "y": 0.05555488830183902,
+          "opacity": 1,
+          "width": 443
+        },
+        {
+          "x": 0.31133511633736,
+          "y": 0.05555488830183902,
+          "opacity": 1,
+          "width": 443
+        }
+      ],
+      "allowed": [
+        {
+          "index": 2,
+          "role": "image-view-hotspot"
+        },
+        {
+          "index": 2,
+          "role": "image-return"
+        },
+        {
+          "role": "panel-close"
+        }
+      ],
+      "state": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      }
+    }
+  ],
+  "preserved": {
+    "same": true,
+    "stereo": true,
+    "targets": 0,
+    "portals": [
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000
+    ]
+  },
+  "errors": [],
+  "physicalDevice": false
+}

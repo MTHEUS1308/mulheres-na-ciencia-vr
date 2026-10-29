@@ -14,7 +14,7 @@ export const mainTablePresentations = {
       note:'Observe, compare, registre. Sem escala temporal ou quantitativa.' },
     { title:'O instrumento de referência', eyebrow:'ACERVO HISTÓRICO', image:photo, credit, text:'Este aparelho foi construído por Pierre Curie e usado nas pesquisas do casal. A fotografia foi registrada em 1950.', note:'A fotografia é uma referência documental; o modelo 3D e a ilustração são interpretações.' },
   ]},
-  polonium: { pages: [
+  polonium: { layout:'monitors', pages: [
     { title:'Polônio · 1898', eyebrow:'UMA NOVA DESCOBERTA', diagram:'polonium', ...poloniumImage,
       text:'Marie e Pierre Curie anunciaram o polônio em 1898. O nome homenageia a Polônia, país de origem de Marie.',
       note:'A rocha da mesa é uma representação mineral. Não representa polônio puro.' },
