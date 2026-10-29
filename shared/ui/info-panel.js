@@ -33,16 +33,14 @@ export function infoPanel(scene, camera, targets) {
   function release(){const callback=onClose;onClose=()=>{};callback();}
   function page(){
     clear();
-    if(state.presentation.layout==='monitors'){
+    if(state.presentation.pages.length>1){
       group.position.copy(camera.position);group.scale.setScalar(1);
       station=monitorStation(group,targets,state.presentation.pages,label);
       const close=add(label('Fechar / voltar',.55,.12,undefined,2.5),()=>{station?.reset();release();fade(true);});
-      close.position.set(0,-.32,-1.42);close.userData.uiRole='panel-close';fade();return;
+      close.position.set(0,-.32,-station.layout.radius+.02);close.userData.uiRole='panel-close';fade();return;
     }
     const current=state.presentation.pages[state.page];card=multimediaCard({...current,pageLabel:`${state.page+1} / ${state.presentation.pages.length}`});group.add(card.face);if(card.diagram)group.add(card.diagram);
     if(current.image){viewer=imageViewer(card,label);for(const mesh of viewer.nodes)group.add(mesh);targets.push(...viewer.targets);}
-    const back=add(label('‹ Anterior',.26,.12,undefined,2.5));back.position.set(-.47,-.33,.006);back.userData.activate=()=>{state.page=Math.max(0,state.page-1);page();};targets.push(back);back.visible=state.page>0;
-    const next=add(label('Próxima ›',.26,.12,undefined,2.5));next.position.set(.47,-.33,.006);next.userData.activate=()=>{state.page=Math.min(state.presentation.pages.length-1,state.page+1);page();};targets.push(next);next.visible=state.page<state.presentation.pages.length-1;
     const close=add(label('Fechar / voltar',.46,.12,undefined,2.5),()=>{viewer?.reset();release();fade(true);});close.position.set(0,-.33,.006);close.userData.uiRole='panel-close';
     fade();
   }

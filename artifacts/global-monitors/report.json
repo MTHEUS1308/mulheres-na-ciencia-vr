@@ -1,0 +1,615 @@
+{
+  "reports": [
+    {
+      "environment": "marie-curie",
+      "id": "microscope",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "marie-curie",
+      "id": "glassware",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "marie-curie",
+      "id": "notes",
+      "n": 2,
+      "monitors": 2,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "O trabalho de registrar",
+        "Comparar, verificar, anotar"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp",
+          "tile": 3
+        },
+        {
+          "index": 1,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp",
+          "tile": 3
+        }
+      ]
+    },
+    {
+      "environment": "marie-curie",
+      "id": "meter",
+      "n": 3,
+      "monitors": 3,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "Medir o invisível",
+        "Da observação ao registro",
+        "O instrumento de referência"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp",
+          "tile": 0
+        },
+        {
+          "index": 1,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp",
+          "tile": 0
+        },
+        {
+          "index": 2,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/marie-curie/media/curie-electrometer-wellcome.jpg"
+        }
+      ]
+    },
+    {
+      "environment": "marie-curie",
+      "id": "polonium",
+      "n": 3,
+      "monitors": 3,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "Polônio · 1898",
+        "Uma propriedade da matéria",
+        "Instrumentos e investigação"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp"
+        },
+        {
+          "index": 1,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp"
+        },
+        {
+          "index": 2,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/marie-curie/media/curie-electrometer-wellcome.jpg"
+        }
+      ]
+    },
+    {
+      "environment": "marie-curie",
+      "id": "radium",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "marie-curie",
+      "id": "notebook",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "marie-curie",
+      "id": "awards",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "invention",
+      "n": 2,
+      "monitors": 2,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "Uma ideia em sintonia",
+        "Ciência e música"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp",
+          "tile": 0
+        },
+        {
+          "index": 1,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp",
+          "tile": 4
+        }
+      ]
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "hopping",
+      "n": 2,
+      "monitors": 2,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "Por que mudar de canal?",
+        "Juntos, a cada salto"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp",
+          "tile": 1
+        },
+        {
+          "index": 1,
+          "image": false,
+          "diagram": true
+        }
+      ]
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "naval-map",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "patent",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "biography",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "hedy-lamarr",
+      "id": "legacy",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "earth",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "speed",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "gravity",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "coordinates",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "return",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "biography",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "nasa",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "glenn",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "mathematics",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "legacy",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "rocket",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "capsule",
+      "n": 1,
+      "monitors": 0,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [],
+      "home": false,
+      "mon": []
+    },
+    {
+      "environment": "katherine-johnson",
+      "id": "orbit",
+      "n": 2,
+      "monitors": 2,
+      "exact": true,
+      "roles": [
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "image-hotspot",
+        "image-view-hotspot",
+        "image-return",
+        "panel-close"
+      ],
+      "titles": [
+        "Onde estará a cápsula?",
+        "Conferir antes de voar"
+      ],
+      "home": false,
+      "mon": [
+        {
+          "index": 0,
+          "image": true,
+          "ready": true,
+          "diagram": true,
+          "source": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp",
+          "tile": 0
+        },
+        {
+          "index": 1,
+          "image": true,
+          "ready": true,
+          "diagram": false,
+          "source": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp",
+          "tile": 4
+        }
+      ]
+    }
+  ],
+  "session": {
+    "same": true,
+    "stereo": true,
+    "quality": 2,
+    "portals": [
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000,
+      3000
+    ],
+    "targets": 0,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "errors": [],
+  "physicalDevice": false
+}

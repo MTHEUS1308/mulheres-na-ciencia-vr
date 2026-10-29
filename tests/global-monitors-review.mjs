@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import {mkdir,writeFile,readFile} from 'node:fs/promises';
+
+const origin=process.env.VR_ORIGIN??'http://localhost:5173';
+const tabs=await(await fetch((process.env.CDP_ORIGIN??'http://localhost:9222')+'/json/list')).json(),ws=new WebSocket(tabs.find(t=>t.type==='page').webSocketDebuggerUrl);await new Promise(r=>ws.onopen=r);
+let serial=0;const pending=new Map(),errors=[],navigations=[],sameDocument=[];
+ws.onmessage=e=>{const m=JSON.parse(e.data);if(m.id){const p=pending.get(m.id);pending.delete(m.id);m.error?p.reject(m.error):p.resolve(m.result);}else if(m.method==='Runtime.exceptionThrown')errors.push(m.params.exceptionDetails.exception?.description??m.params.exceptionDetails.text);else if(m.method==='Runtime.consoleAPICalled'&&m.params.type==='error')errors.push(m.params.args.map(a=>a.value??a.description).join(' '));else if(m.method==='Page.frameNavigated')navigations.push(m.params.frame.url);else if(m.method==='Page.navigatedWithinDocument')sameDocument.push(m.params.url);};
+const call=(method,params={})=>new Promise((resolve,reject)=>{pending.set(++serial,{resolve,reject});ws.send(JSON.stringify({id:serial,method,params}));});
+const ev=async expression=>{const r=await call('Runtime.evaluate',{expression:`(()=>eval(${JSON.stringify(expression)}))()`,returnByValue:true,awaitPromise:true});if(r.exceptionDetails)throw Error(r.exceptionDetails.exception?.description??r.exceptionDetails.text);return r.result.value;};
+async function waitFor(expression,timeout=60000){const start=Date.now();while(Date.now()-start<timeout){const value=await ev(expression);if(value)return value;await new Promise(r=>setTimeout(r,80));}throw Error('Timed out: '+expression+'\n'+errors.join('\n'));}
+await call('Runtime.enable');await call('Page.enable');await call('Page.addScriptToEvaluateOnNewDocument',{source:`window.__VR_GAZE_DEBUG__=true;window.__VR_GAZE_TRACE__=[];window.__documentToken=crypto.randomUUID();window.__webglContexts=0;const originalContext=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(type,...args){if(type==='webgl2')window.__webglContexts++;return originalContext.call(this,type,...args);};`});
+await call('Emulation.setDeviceMetricsOverride',{width:844,height:390,deviceScaleFactor:1,mobile:true,screenOrientation:{type:'landscapePrimary',angle:90}});await call('Page.navigate',{url:origin+'/'});await new Promise(r=>setTimeout(r,1000));await waitFor('!!window.museum');
+await mkdir('artifacts/global-monitors',{recursive:true});
+await ev(`window.__session={renderer:museum.renderer,camera:museum.camera,controls:museum.controls,time:performance.timeOrigin};window.__aim=t=>{museum.scene.updateMatrixWorld(true);museum.camera.lookAt(t.getWorldPosition(museum.camera.position.clone()));museum.controls.disable();museum.camera.updateMatrixWorld(true);museum.gaze.selection.reset();return museum.gaze.hit()?.uuid===t.uuid;};const b=document.createElement('button');b.style='position:fixed;left:0;top:0;z-index:99999';b.textContent='Stereo test';b.onclick=()=>{museum.cardboard.enter();b.remove();};document.body.append(b);`);
+for(const type of ['mousePressed','mouseReleased'])await call('Input.dispatchMouseEvent',{type,x:20,y:10,button:'left',clickCount:1});await waitFor('museum.cardboard.enabled');
+async function aim(expression){assert.equal(await ev(`__aim(${expression})`),true,expression);}
+const reports=[];
+for(const id of ['marie-curie','hedy-lamarr','katherine-johnson']){
+ await ev(`museum.manager.navigate('${id}')`);await waitFor(`museum.currentId==='${id}'&&!museum.manager.busy`);
+ const count=await ev(`(()=>{const seen=new Set();window.__records=museum.targets.map(t=>t.userData.record).filter(r=>r?.presentation&&!seen.has(r.presentation)&&(seen.add(r.presentation),true));return __records.length;})()`);
+ for(let index=0;index<count;index++){
+  await ev(`museum.openExhibit(__records[${index}])`);assert.equal(await ev('museum.panel.imageReady'),true);
+  const state=await ev(`(()=>{const m=museum,p=__records[${index}].presentation,n=p.pages.length;return{id:__records[${index}].id,n,monitors:m.panel.monitors.length,exact:m.panel.monitors.every((v,i)=>v.page===p.pages[i]),roles:m.targets.filter(t=>t.parent===m.panel.group||t.userData.monitorIndex!==undefined).map(t=>t.userData.uiRole),titles:m.panel.monitors.map(v=>v.page.title),home:m.home.group.visible,mon:m.panel.monitors.map(v=>({index:v.index,image:!!v.page.image,ready:v.viewer?.state.ready,diagram:!!v.card.diagram,source:v.card.imageAsset?.image.src,tile:v.card.imageAsset?.tile}))};})()`);
+  assert.equal(state.monitors,state.n>1?state.n:0);assert.equal(state.exact,true);assert.ok(state.roles.every(v=>['image-hotspot','image-view-hotspot','image-return','panel-close'].includes(v)));
+  if(state.n>1){
+   await waitFor('!museum.home.group.visible');
+   assert.equal(await ev(`(()=>{const m=museum;m.scene.updateMatrixWorld(true);const pose=m.panel.monitors.map(v=>v.group.matrixWorld.toArray());m.camera.rotation.set(.2,2,0,'YXZ');m.controls.disable();m.panel.update(performance.now(),null);m.scene.updateMatrixWorld(true);return m.panel.monitors.every((v,i)=>JSON.stringify(v.group.matrixWorld.toArray())===JSON.stringify(pose[i]));})()`),true);
+   for(const mon of state.mon){
+    if(!mon.image)continue;
+    assert.equal(mon.ready,true);await aim(`museum.targets.find(t=>t.userData.uiRole==='image-hotspot'&&t.userData.monitorIndex===${mon.index})`);await waitFor(`museum.panel.monitors[${mon.index}].viewer.state.phase==='open'`);
+    const rendering=await ev(`(()=>{const m=museum,v=m.panel.monitors[${mon.index}].viewer,art=v.nodes.find(t=>t.userData.uiRole==='image-enlarged'),eyes=[];art.onAfterRender=(r,s,c)=>{const p=art.getWorldPosition(m.camera.position.clone()).project(c);eyes.push({x:p.x,y:p.y,opacity:art.material.opacity,width:art.material.map.image.naturalWidth});};m.cardboard.render();art.onAfterRender=()=>{};return{eyes,count:v.state.activationCount,allowed:m.targets.filter(t=>m.panel.acceptsTarget(t)).map(t=>({index:t.userData.monitorIndex,role:t.userData.uiRole})),image:m.renderer.domElement.toDataURL('image/png')};})()`);
+    assert.equal(rendering.eyes.length,2);assert.ok(rendering.eyes.every(v=>v.opacity===1&&v.width>0&&Math.abs(v.x)<1&&Math.abs(v.y)<1));assert.equal(rendering.count,1);assert.ok(rendering.allowed.every(t=>t.role==='panel-close'||t.index===mon.index));
+    if(mon.index===0)await writeFile(`artifacts/global-monitors/${id}-${state.id}-stereo.png`,Buffer.from(rendering.image.split(',')[1],'base64'));
+    await ev('museum.camera.lookAt(0,3,1);museum.controls.disable()');assert.equal(await ev(`museum.panel.monitors[${mon.index}].viewer.state.phase`),'open');
+    await aim(`museum.targets.find(t=>t.userData.uiRole==='image-return'&&t.userData.monitorIndex===${mon.index})`);await waitFor(`museum.panel.monitors[${mon.index}].viewer.state.phase==='idle'`);
+   }
+   await aim(`museum.targets.find(t=>t.userData.uiRole==='panel-close')`);await waitFor('!museum.panel.group.visible&&(()=>{museum.camera.lookAt(0,3,1);museum.controls.disable();return true;})()');assert.equal(await ev('museum.targets.filter(t=>t.userData.monitorIndex!==undefined).length'),0);
+  }else await ev('museum.panel.reset()');
+  reports.push({environment:id,...state});console.log('PASS',id,state.id,state.n,'pages',state.monitors,'monitors');
+ }
+}
+await ev("museum.manager.navigate('lobby')");await waitFor("museum.currentId==='lobby'&&!museum.manager.busy");const session=await ev(`({same:museum.renderer===__session.renderer&&museum.camera===__session.camera&&museum.controls===__session.controls&&performance.timeOrigin===__session.time,stereo:museum.cardboard.enabled,quality:museum.quality,portals:museum.targets.filter(t=>t.userData.portal).map(t=>t.userData.dwellDuration),targets:museum.targets.filter(t=>t.userData.monitorIndex!==undefined).length,camera:museum.camera.position.toArray()})`);assert.equal(session.same,true);assert.equal(session.stereo,true);assert.equal(session.quality,2);assert.equal(session.targets,0);assert.deepEqual(session.camera,[0,0,0]);assert.ok(session.portals.every(t=>t===3000));assert.deepEqual(errors,[]);assert.equal(navigations.length,1);await writeFile('artifacts/global-monitors/report.json',JSON.stringify({reports,session,errors,physicalDevice:false},null,2));console.log('PASS all presentations, image gaze, stereo, cleanup, no reload or console errors');ws.close();
