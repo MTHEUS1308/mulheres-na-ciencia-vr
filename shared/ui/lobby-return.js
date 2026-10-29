@@ -23,7 +23,7 @@ export function lobbyReturn(scene,camera,targets,navigate){
  target.name='Lobby_return_hotspot';target.userData.uiRole='lobby-return';target.userData.dwellDuration=DEFAULT_GAZE_DURATION;
  let fired=false,heading=0,last=null,initialized=false,highlight=0,wasAvailable=false;
  target.userData.activate=()=>{if(fired||!group.visible||!target.visible)return;fired=true;target.userData.gazeDisabled=true;navigate('lobby');};group.add(target);targets.push(target);
- const euler=new THREE.Euler(0,0,0,'YXZ'),up=new THREE.Vector3(0,1,0),offset=new THREE.Vector3(.35,-.45,-2.35),ray=new THREE.Raycaster(),center=new THREE.Vector2();
+ const euler=new THREE.Euler(0,0,0,'YXZ'),up=new THREE.Vector3(0,1,0),offset=new THREE.Vector3(.55,-.68,-2.75),ray=new THREE.Raycaster(),center=new THREE.Vector2();
  function place(){group.quaternion.setFromAxisAngle(up,heading);group.position.copy(offset).applyQuaternion(group.quaternion).add(camera.position);group.updateMatrixWorld(true);}
  return {group,target,face,border,
   reset(){heading=euler.setFromQuaternion(camera.quaternion,'YXZ').y;initialized=true;last=null;fired=false;target.userData.gazeDisabled=false;wasAvailable=false;place();},
@@ -36,8 +36,8 @@ export function lobbyReturn(scene,camera,targets,navigate){
    if(!initialized)this.reset();
    if(!group.visible)return;
    const yaw=euler.setFromQuaternion(camera.quaternion,'YXZ').y,delta=Math.atan2(Math.sin(yaw-heading),Math.cos(yaw-heading));
-   const deadZone=THREE.MathUtils.degToRad(8);
-   if(focus!==target&&Math.abs(delta)>deadZone)heading+=(delta-Math.sign(delta)*deadZone)*(1-Math.exp(-dt/ .32));
+   const deadZone=THREE.MathUtils.degToRad(12);
+   if(focus!==target&&Math.abs(delta)>deadZone)heading+=(delta-Math.sign(delta)*deadZone)*(1-Math.exp(-dt/ .85));
    place();
    // Closing a modal must not turn its former close-button gaze into a return.
    // Arm only after the visitor has looked outside the newly available hotspot.
