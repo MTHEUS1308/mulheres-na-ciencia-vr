@@ -1,0 +1,11 @@
+import { mainTablePresentations, sidePresentations } from './main-table-content.js';
+export const exhibits = [
+ { title:'Microscópio de época', short:'Lentes e observação', text:[], position:[.58,-.25,-2.36], kind:'microscope', id:'microscope', mainTable:true, presentation:mainTablePresentations.microscope },
+ { title:'Vidrarias', short:'Vidrarias', text:[], position:[-.1,-.35,-2.28], kind:'glassware', id:'glassware', mainTable:true, presentation:mainTablePresentations.glassware },
+ { title:'Registros da mesa', short:'Registros de pesquisa', text:[], position:[.20,-.49,-1.98], kind:'notes', id:'notes', mainTable:true, presentation:mainTablePresentations.notes },
+ { title:'Investigar o invisível', short:'01 · Medição', text:['Marie e Pierre investigaram a radiação','a partir de seus efeitos mensuráveis.','Observe o ponteiro: é uma animação','educativa, sem escala experimental.'], position:[-.91,-.1,-2.16], kind:'meter', id:'meter', mainTable:true, presentation:mainTablePresentations.meter },
+ { title:'Polônio · 1898', short:'02 · Polônio', text:['Marie e Pierre Curie anunciaram','o polônio em 1898. O nome homenageia','a Polônia, país de origem de Marie.','O mineral aqui é uma representação.'], position:[.97,-.40,-1.99], kind:'mineral', id:'polonium', mainTable:true, presentation:mainTablePresentations.polonium },
+ { title:'Rádio · 1898', short:'03 · Rádio', text:['A descoberta do rádio foi anunciada','em 1898 por Marie e Pierre Curie','e Gustave Bémont. Radioatividade','não é um brilho verde constante.'], position:[2.25,-.50,.15], kind:'mineral', id:'radium', presentation:sidePresentations.radium },
+ { title:'Caderno de pesquisa', short:'04 · Anotações', text:['Medir, comparar e registrar ajudava','a transformar observações em evidência.','Este caderno é uma ilustração didática,','não uma reprodução de um original.'], position:[-2.25,-.50,.10], kind:'book', id:'notebook', presentation:sidePresentations.notebook },
+ { title:'Dois Prêmios Nobel', short:'05 · Reconhecimentos', text:['1903: Física, com Pierre Curie','e Henri Becquerel, por pesquisas','sobre radiação. 1911: Química, pela','descoberta do polônio e do rádio,','isolamento e estudos do rádio.'], position:[0,.3,4.2], kind:'award', id:'awards', presentation:sidePresentations.awards },
+];

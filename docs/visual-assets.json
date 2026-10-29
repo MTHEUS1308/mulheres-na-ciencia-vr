@@ -1,0 +1,169 @@
+[
+  {
+    "id": "vintage_microscope",
+    "type": "model",
+    "url": "https://polyhaven.com/a/vintage_microscope",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Luis José Fernández Rodríguez": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "wooden_table_02",
+    "type": "model",
+    "url": "https://polyhaven.com/a/wooden_table_02",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Serhii Khromov": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "wooden_bookshelf_worn",
+    "type": "model",
+    "url": "https://polyhaven.com/a/wooden_bookshelf_worn",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Ulan Cabanilla": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "vintage_oil_lamp",
+    "type": "model",
+    "url": "https://polyhaven.com/a/vintage_oil_lamp",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Monsta3D": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "wooden_stool_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/wooden_stool_01",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Kuutti Siitonen": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "book_encyclopedia_set_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/book_encyclopedia_set_01",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "John Malcolm": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "wine_bottles_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/wine_bottles_01",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Rico Cilliers": "modeling",
+      "Jurita Burger": "graphic design"
+    },
+    "usedInFinalScene": false
+  },
+  {
+    "id": "brass_pot_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/brass_pot_01",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Rico Cilliers": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "stone_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/stone_01",
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "authors": {
+      "Dario Barresi": "Photography",
+      "Rico Cilliers": "photography, processing"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "old_wood_floor",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/old_wood_floor",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "authors": {
+      "Guillaume Monsergent": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "worn_plaster_wall",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/worn_plaster_wall",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "authors": {
+      "Dimitrios Savva": "All"
+    },
+    "usedInFinalScene": false
+  },
+  {
+    "id": "grey_plaster_03",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/grey_plaster_03",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "usedInFinalScene": true
+  },
+  {
+    "id": "rusty_metal",
+    "type": "texture",
+    "url": "https://polyhaven.com/a/rusty_metal",
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "usedInFinalScene": false
+  },
+  {
+    "id": "painted_wooden_table",
+    "type": "model",
+    "url": "https://polyhaven.com/a/painted_wooden_table",
+    "authors": {
+      "Kirill Sannikov": "All"
+    },
+    "license": "CC0-1.0",
+    "resolution": "2k",
+    "usedInFinalScene": true
+  },
+  {
+    "id": "magnifying_glass_01",
+    "type": "model",
+    "url": "https://polyhaven.com/a/magnifying_glass_01",
+    "authors": {
+      "Nazar Borodavka": "All"
+    },
+    "license": "CC0-1.0",
+    "resolution": "1k",
+    "usedInFinalScene": true
+  }
+]

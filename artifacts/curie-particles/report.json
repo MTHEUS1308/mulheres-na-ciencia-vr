@@ -1,0 +1,179 @@
+{
+  "origin": "http://localhost:5173",
+  "particleInfo": {
+    "points": true,
+    "vertices": 128,
+    "range": 128,
+    "trails": 24,
+    "depthTest": true,
+    "depthWrite": false,
+    "target": false,
+    "orders": [
+      1,
+      1
+    ],
+    "lights": [
+      {
+        "color": "a8bfdc",
+        "intensity": 1.6,
+        "position": [
+          -3.8,
+          0.65,
+          -2.3
+        ]
+      },
+      {
+        "color": "ffc078",
+        "intensity": 0.85,
+        "position": [
+          1.22,
+          -0.16,
+          -2.4
+        ]
+      }
+    ],
+    "running": true,
+    "updates": 4,
+    "time": 14.6121,
+    "spread": [
+      -3.83866548538208,
+      3.889719247817993
+    ]
+  },
+  "imageReports": [
+    {
+      "key": "polonium",
+      "page": 0,
+      "asset": {
+        "url": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp",
+        "width": 1200,
+        "height": 1500,
+        "repeat": [
+          1,
+          1
+        ],
+        "page": 0,
+        "duration": 1200
+      },
+      "pix": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          202,
+          201
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "key": "polonium",
+      "page": 1,
+      "asset": {
+        "url": "http://localhost:5173/assets/marie-curie/media/polonium-scientific.webp",
+        "width": 1200,
+        "height": 1500,
+        "repeat": [
+          1,
+          1
+        ],
+        "page": 1,
+        "duration": 1200
+      },
+      "pix": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          202,
+          201
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "key": "radium",
+      "page": 0,
+      "asset": {
+        "url": "http://localhost:5173/assets/marie-curie/media/pitchblende-museum.webp",
+        "width": 1200,
+        "height": 1500,
+        "repeat": [
+          1,
+          1
+        ],
+        "page": 0,
+        "duration": 1200
+      },
+      "pix": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          209,
+          209
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "stopped": {
+    "running": false,
+    "updates": 128
+  },
+  "memory": [
+    {
+      "geometries": 91,
+      "textures": 25,
+      "programs": 21
+    },
+    {
+      "geometries": 91,
+      "textures": 25,
+      "programs": 21
+    },
+    {
+      "geometries": 91,
+      "textures": 25,
+      "programs": 21
+    }
+  ],
+  "motion": {
+    "changed": 750,
+    "time": 20
+  },
+  "quality": [
+    {
+      "value": 1,
+      "count": 48
+    },
+    {
+      "value": 1.5,
+      "count": 88
+    },
+    {
+      "value": 2,
+      "count": 128
+    }
+  ],
+  "preserved": 75,
+  "errors": []
+}

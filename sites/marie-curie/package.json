@@ -1,0 +1,10 @@
+{
+  "name": "@museu/marie-curie",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite ../.. --host 0.0.0.0 --open /sites/marie-curie/",
+    "build": "vite build ../.."
+  }
+}

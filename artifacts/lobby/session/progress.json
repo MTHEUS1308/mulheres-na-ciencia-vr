@@ -1,0 +1,300 @@
+{
+  "transitions": [
+    {
+      "id": "marie-curie",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 109,
+        "textures": 47
+      },
+      "programs": 23
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 94,
+        "textures": 24
+      },
+      "programs": 18
+    },
+    {
+      "id": "hedy-lamarr",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 2.9802322387695312e-8,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 112,
+        "textures": 44
+      },
+      "programs": 27
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 94,
+        "textures": 24
+      },
+      "programs": 20
+    },
+    {
+      "id": "katherine-johnson",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 116,
+        "textures": 29
+      },
+      "programs": 29
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 95,
+        "textures": 25
+      },
+      "programs": 22
+    }
+  ],
+  "images": [
+    {
+      "site": "marie-curie",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          173,
+          174
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "site": "hedy-lamarr",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          176,
+          172
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "site": "katherine-johnson",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          204,
+          203
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "memory": [
+    {
+      "site": "marie-curie",
+      "geometries": 94,
+      "textures": 24,
+      "programs": 18
+    },
+    {
+      "site": "hedy-lamarr",
+      "geometries": 94,
+      "textures": 24,
+      "programs": 20
+    },
+    {
+      "site": "katherine-johnson",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    }
+  ],
+  "errors": []
+}

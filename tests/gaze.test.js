@@ -1,0 +1,52 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { GAZE_DURATION_MS } from '../shared/vr/config.js';
+import { DwellSelection } from '../shared/vr/gaze-controls.js';
+import { fixedCamera } from '../shared/vr/fixed-camera.js';
+test('olhar ativa uma vez, cancela ao desviar e reinicia em outro objeto', () => {
+  let activations = 0;
+  const a = {userData:{activate:()=>activations++}};
+  const b = {userData:{activate:()=>activations++}};
+  const gaze = new DwellSelection(2000);
+  assert.equal(gaze.update(a,0),0);
+  assert.equal(gaze.update(a,1000),.5);
+  gaze.update(null,1500);
+  gaze.update(a,1600);
+  assert.equal(gaze.update(a,3500),.95);
+  gaze.update(a,3600); gaze.update(a,7000);
+  assert.equal(activations,1);
+  gaze.update(b,7100);gaze.update(b,9100);
+  assert.equal(activations,2);
+});
+test('câmera permanece no centro ao mudar orientação', () => {
+  const camera=fixedCamera();camera.rotation.set(1,3,0);camera.updateMatrixWorld();
+  assert.deepEqual(camera.position.toArray(),[0,0,0]);
+});
+test('hotspot de imagem usa o tempo compartilhado de 1,2 s e área ampliada mantém foco sem disparar ações', () => {
+  let activations=0;
+  const image={userData:{dwellDuration:GAZE_DURATION_MS,activate:()=>activations++}};
+  const hold={userData:{gazeHold:true,activate:()=>activations++}};
+  const gaze=new DwellSelection(3000);
+  gaze.update(image,100);
+  assert.ok(gaze.update(image,1299)<1);
+  assert.equal(activations,0);
+  assert.equal(gaze.update(image,1300),1);
+  assert.equal(activations,1);
+  gaze.update(image,4000);
+  assert.equal(activations,1);
+  assert.equal(gaze.update(hold,4100),0);
+  assert.equal(gaze.update(hold,10000),0);
+  assert.equal(gaze.target,hold);
+  assert.equal(activations,1);
+  gaze.update(null,11000);gaze.update(image,12000);
+  assert.equal(gaze.update(image,13000),1000/GAZE_DURATION_MS);
+});
+test('alvo bloqueado depois do callback não reinicia progresso nem dispara novamente',()=>{
+ let calls=0;const image={userData:{dwellDuration:GAZE_DURATION_MS,activate(){calls++;image.userData.gazeDisabled=true;}}};
+ const selection=new DwellSelection(2000);selection.update(image,0);
+ assert.equal(selection.update(image,GAZE_DURATION_MS),1);
+ for(let t=1900;t<=9000;t+=100)assert.equal(selection.update(image,t),0);
+ assert.equal(calls,1);
+ image.userData.gazeDisabled=false;selection.reset();selection.update(image,10000);
+ assert.ok(selection.update(image,11199)<1);selection.update(image,11200);assert.equal(calls,2);
+});

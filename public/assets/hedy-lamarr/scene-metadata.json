@@ -1,0 +1,19 @@
+{
+  "source": "Blender 4.5.9 / Cycles",
+  "bake": "diffuse direct + indirect",
+  "lightmapScale": 2.1394297895431587,
+  "samples": 24,
+  "atlas": [
+    2048,
+    2048
+  ],
+  "uv": "TEXCOORD_1 / Lightmap",
+  "objects": 405,
+  "polygons": 44639,
+  "fixedCamera": [
+    0,
+    0,
+    0
+  ],
+  "historicalStatus": "Educational 1940s-inspired communications room, not an authenticated workplace replica"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://prix-tiles-slides-comprehensive.trycloudflare.com/assets/marie-curie/media/pitchblende-museum.webp",
+    "status": 200,
+    "content_type": "image/webp",
+    "bytes": 185216,
+    "sha256": "63808400644bb9e349294b0fa98b795ac259730e10703dd3845b173ffd149508",
+    "matches_local": true
+  },
+  {
+    "url": "https://prix-tiles-slides-comprehensive.trycloudflare.com/assets/marie-curie/media/polonium-scientific.webp",
+    "status": 200,
+    "content_type": "image/webp",
+    "bytes": 115244,
+    "sha256": "03a75b1ed45019927a23b92af4ca649b705886568521bc36f7db361af4a6da35",
+    "matches_local": true
+  }
+]

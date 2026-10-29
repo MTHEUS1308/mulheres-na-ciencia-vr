@@ -1,0 +1,79 @@
+{
+  "licensedSources": [
+    {
+      "id": "wooden_table_02",
+      "type": "model",
+      "url": "https://polyhaven.com/a/wooden_table_02",
+      "license": "CC0-1.0",
+      "resolution": "1k",
+      "authors": {
+        "Serhii Khromov": "All"
+      },
+      "usedInFinalScene": true
+    },
+    {
+      "id": "wooden_stool_01",
+      "type": "model",
+      "url": "https://polyhaven.com/a/wooden_stool_01",
+      "license": "CC0-1.0",
+      "resolution": "1k",
+      "authors": {
+        "Kuutti Siitonen": "All"
+      },
+      "usedInFinalScene": true
+    },
+    {
+      "id": "old_wood_floor",
+      "type": "texture",
+      "url": "https://polyhaven.com/a/old_wood_floor",
+      "license": "CC0-1.0",
+      "resolution": "2k",
+      "authors": {
+        "Guillaume Monsergent": "All"
+      },
+      "usedInFinalScene": true
+    },
+    {
+      "id": "rusty_metal",
+      "type": "texture",
+      "url": "https://polyhaven.com/a/rusty_metal",
+      "license": "CC0-1.0",
+      "resolution": "2k",
+      "authors": {
+        "Rob Tuytel": "All"
+      },
+      "usedInFinalScene": false
+    },
+    {
+      "id": "magnifying_glass_01",
+      "type": "model",
+      "url": "https://polyhaven.com/a/magnifying_glass_01",
+      "authors": {
+        "Nazar Borodavka": "All"
+      },
+      "license": "CC0-1.0",
+      "resolution": "1k",
+      "usedInFinalScene": true
+    }
+  ],
+  "authoredGeometry": [
+    "room",
+    "radio transmitter",
+    "receiver",
+    "CRT instrument",
+    "racks",
+    "lamp fixtures",
+    "steamship",
+    "cables"
+  ],
+  "illustrations": {
+    "path": "public/assets/hedy-lamarr/media/illustrations.webp",
+    "kind": "AI-generated educational atlas; not archive photographs"
+  },
+  "patent": {
+    "url": "https://patents.google.com/patent/US2292387A/en",
+    "pdf": "https://patentimages.storage.googleapis.com/e0/dd/4e/0e04d56d1d7604/US2292387.pdf",
+    "sha256": "3be929279e08eaa28486653831bf9f08801922658ebcbfea85a6e1db442dfaa3",
+    "image": "public/assets/hedy-lamarr/media/patent-1942.webp"
+  }
+}

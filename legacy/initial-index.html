@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#172421" />
+    <title>Sala 360° · SNCT 2026</title>
+  </head>
+  <body>
+    <canvas id="scene" aria-label="Sala tridimensional. Clique e arraste para olhar ao redor." tabindex="0"></canvas>
+    <header><span class="brand">SNCT <strong>2026</strong></span><span class="tag">EXPERIÊNCIA INTERATIVA</span></header>
+    <main class="panel">
+      <span class="eyebrow">UM NOVO PONTO DE VISTA</span>
+      <h1>Entre. Olhe ao redor.</h1>
+      <p>Uma sala, infinitas direções. Explore o espaço a partir do centro.</p>
+      <button id="explore">Explorar em 360° <span>↗</span></button>
+      <small id="instructions" role="status">Clique e arraste para olhar · ou use as setas</small>
+    </main>
+    <div class="crosshair" aria-hidden="true">+</div>
+    <footer><span><i></i> CÂMERA FIXA NO CENTRO</span><button id="reset">↺ Reiniciar visão</button><span id="heading">000°</span></footer>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

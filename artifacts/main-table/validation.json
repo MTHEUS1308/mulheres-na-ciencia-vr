@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "id": "microscope",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "glassware",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "notes",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "meter",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "polonium",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "Rádio · 1898",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "Caderno de pesquisa",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "Dois Prêmios Nobel",
+      "hit": true,
+      "visible": true
+    }
+  ],
+  "closing": {
+    "hit": true,
+    "closed": true
+  },
+  "report": {
+    "camera": [
+      0,
+      0,
+      0
+    ],
+    "panelY": 0,
+    "drawCalls": 33,
+    "triangles": 92449,
+    "textures": 49
+  },
+  "errors": []
+}

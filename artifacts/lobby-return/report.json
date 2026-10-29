@@ -1,0 +1,308 @@
+{
+  "reports": [
+    {
+      "id": "marie-curie",
+      "follow": {
+        "out": [
+          {
+            "yaw": 0,
+            "x": 0.09472427757603873,
+            "y": -0.26356249540937365,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 1.5707963267948966,
+            "x": 0.1881735825459864,
+            "y": -0.27185771219789623,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 3.141592653589793,
+            "x": 0.18818612887439903,
+            "y": -0.27185917122621023,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": -1.5707963267948966,
+            "x": 0.18818613050213398,
+            "y": -0.2718591714155073,
+            "depth": 2.4181604578687494
+          }
+        ],
+        "jitter": 0,
+        "visual": {
+          "width": 0.82,
+          "height": 0.192,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "hotspot": {
+          "width": 0.96,
+          "height": 0.28,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "duration": 1200,
+        "depthTest": false,
+        "depthWrite": false,
+        "order": 500
+      },
+      "exhibit": "microscope",
+      "frame": {
+        "eyes": [
+          {
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "stereo": false
+      },
+      "session": {
+        "returns": [
+          {
+            "elapsed": 2220,
+            "at": 35677.59999999963
+          }
+        ],
+        "same": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quality": 2,
+        "stereo": false,
+        "visible": false,
+        "portals": [
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "canvases": 1
+      }
+    },
+    {
+      "id": "hedy-lamarr",
+      "follow": {
+        "out": [
+          {
+            "yaw": 0,
+            "x": 0.18804579230404805,
+            "y": -0.27184285640545125,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 1.5707963267948966,
+            "x": 0.18818611229417212,
+            "y": -0.2718591692980157,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 3.141592653589793,
+            "x": 0.18818613049998212,
+            "y": -0.27185917141525706,
+            "depth": 2.41816045786875
+          },
+          {
+            "yaw": -1.5707963267948966,
+            "x": 0.1881861305023433,
+            "y": -0.2718591714155316,
+            "depth": 2.41816045786875
+          }
+        ],
+        "jitter": 0,
+        "visual": {
+          "width": 0.82,
+          "height": 0.192,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "hotspot": {
+          "width": 0.96,
+          "height": 0.28,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "duration": 1200,
+        "depthTest": false,
+        "depthWrite": false,
+        "order": 500
+      },
+      "exhibit": "invention",
+      "frame": {
+        "eyes": [
+          {
+            "x": 0.0032646599880845925,
+            "y": -3.147272110828068e-17
+          },
+          {
+            "x": -0.0032646599880844776,
+            "y": -3.171956597971817e-17
+          }
+        ],
+        "stereo": true
+      },
+      "session": {
+        "returns": [
+          {
+            "elapsed": 2220,
+            "at": 35677.59999999963
+          },
+          {
+            "elapsed": 3998.800000000745,
+            "at": 66726.5
+          }
+        ],
+        "same": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quality": 2,
+        "stereo": true,
+        "visible": false,
+        "portals": [
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "canvases": 1
+      }
+    },
+    {
+      "id": "katherine-johnson",
+      "follow": {
+        "out": [
+          {
+            "yaw": 0,
+            "x": 0.18805713941796778,
+            "y": -0.2718441751477009,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 1.5707963267948966,
+            "x": 0.1881861137664841,
+            "y": -0.271859169469238,
+            "depth": 2.4181604578687494
+          },
+          {
+            "yaw": 3.141592653589793,
+            "x": 0.1881861305001723,
+            "y": -0.27185917141527927,
+            "depth": 2.418160457868749
+          },
+          {
+            "yaw": -1.5707963267948966,
+            "x": 0.1881861305023433,
+            "y": -0.2718591714155316,
+            "depth": 2.41816045786875
+          }
+        ],
+        "jitter": 0,
+        "visual": {
+          "width": 0.82,
+          "height": 0.192,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "hotspot": {
+          "width": 0.96,
+          "height": 0.28,
+          "widthSegments": 1,
+          "heightSegments": 1
+        },
+        "duration": 1200,
+        "depthTest": false,
+        "depthWrite": false,
+        "order": 500
+      },
+      "exhibit": "earth",
+      "frame": {
+        "eyes": [
+          {
+            "x": 0.003264659988084472,
+            "y": 3.1842988415436924e-17
+          },
+          {
+            "x": -0.0032646599880845895,
+            "y": 3.134929867256193e-17
+          }
+        ],
+        "stereo": true
+      },
+      "session": {
+        "returns": [
+          {
+            "elapsed": 2220,
+            "at": 35677.59999999963
+          },
+          {
+            "elapsed": 3998.800000000745,
+            "at": 66726.5
+          },
+          {
+            "elapsed": 1234.2999999998137,
+            "at": 87788.59999999963
+          }
+        ],
+        "same": true,
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "quality": 2,
+        "stereo": true,
+        "visible": false,
+        "portals": [
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000,
+          3000
+        ],
+        "canvases": 1
+      }
+    }
+  ],
+  "navigations": [
+    "http://localhost:5173/"
+  ],
+  "sameDocument": [
+    "http://localhost:5173/",
+    "http://localhost:5173/sites/marie-curie/",
+    "http://localhost:5173/",
+    "http://localhost:5173/sites/hedy-lamarr/",
+    "http://localhost:5173/",
+    "http://localhost:5173/sites/katherine-johnson/",
+    "http://localhost:5173/"
+  ],
+  "errors": [],
+  "physicalDevice": false
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mulheres-na-ciencia-vr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "dev:marie": "npm run dev --workspace=@museu/marie-curie",
+    "dev:hedy": "npm run dev --workspace=@museu/hedy-lamarr",
+    "dev:katherine": "npm run dev --workspace=@museu/katherine-johnson",
+    "test": "node --test tests/*.test.js",
+    "dev:https": "vite --host 0.0.0.0 --mode https --port 5174",
+    "setup:https": "node scripts/setup-https.mjs",
+    "android:connect": "bash scripts/android-usb.sh"
+  },
+  "dependencies": {
+    "three": "latest"
+  },
+  "devDependencies": {
+    "vite": "latest"
+  },
+  "workspaces": [
+    "sites/*"
+  ]
+}

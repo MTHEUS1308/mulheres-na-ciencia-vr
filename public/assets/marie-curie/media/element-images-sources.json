@@ -1,0 +1,25 @@
+{
+  "radium": {
+    "file": "pitchblende-museum.webp",
+    "source": "https://commons.wikimedia.org/wiki/File:Uraninite_(Pitchblende)_(47975537437).jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Uraninite_%28Pitchblende%29_%2847975537437%29.jpg",
+    "author": "Pacific Museum of Earth",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "changes": "cropped, resized, framed with Portuguese identification and encoded as WebP; adapted image distributed under CC BY-SA 2.0",
+    "source_sha256": "fe638b40895cc377436b2392004b09498079a5596ea66e3d0cd8d3d7a20aae65",
+    "identification": "Uraninite (pitchblende), specimen S-74-2183, Athabasca, Saskatchewan, Canada. Not pure radium and not an authenticated Curie sample."
+  },
+  "polonium": {
+    "file": "polonium-scientific.webp",
+    "source_svg": "polonium-scientific.svg",
+    "author": "Original educational diagram made for this project",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "references": [
+      "https://physics.nist.gov/PhysRefData/Handbook/Tables/poloniumtable1.htm",
+      "https://periodic-table.rsc.org/element/84/Polonium"
+    ],
+    "identification": "Schematic Po-210 nucleus: 84 protons and 126 neutrons. Not a photograph, not a sample of polonium metal, no geometric or quantum scale implied."
+  }
+}

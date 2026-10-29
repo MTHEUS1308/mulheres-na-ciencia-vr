@@ -1,0 +1,52 @@
+{
+  "sideTables": {
+    "left": [
+      -2.25,
+      -0.66,
+      0.35
+    ],
+    "right": [
+      2.25,
+      -0.66,
+      0.35
+    ],
+    "nearestEdge": 1.825
+  },
+  "lighting": {
+    "windowKeyWatts": 18,
+    "windowFillWatts": 10,
+    "worldStrength": 0.008,
+    "courtyardEmission": 0.025
+  },
+  "mainTable": {
+    "readerPivot": [
+      -0.61,
+      -0.39499999999999996,
+      -1.851
+    ],
+    "tableCenter": [
+      0,
+      -0.52,
+      -2.2
+    ],
+    "minimumFrontDistance": 1.65,
+    "historicalModel": "Authored interpretation, not a scan of the original"
+  },
+  "source": "Blender 4.5.9 / Cycles",
+  "bake": "diffuse direct + indirect, neutral white response",
+  "lightmapScale": 1.3204023838043213,
+  "samples": 24,
+  "atlas": [
+    2048,
+    2048
+  ],
+  "uv": "TEXCOORD_1 / Lightmap",
+  "objects": 110,
+  "polygons": 137591,
+  "fixedCamera": [
+    0,
+    0,
+    0
+  ],
+  "historicalStatus": "Artistic educational reconstruction, not an authenticated replica"
+}

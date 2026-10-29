@@ -1,0 +1,39 @@
+{
+  "rotationControls": {
+    "turned": 0.08000000000000122,
+    "afterFullTurn": 0.036814692820419326,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "pointer": {
+    "heading": 5.600000000000004,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cursor": {
+    "eyes": 2,
+    "cursorDraws": 2,
+    "lastIsCursor": true,
+    "hit": "panel-close",
+    "depthTest": false,
+    "depthWrite": false,
+    "isInteractive": false,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "nav": {
+    "count": 4,
+    "panel": true,
+    "text": 3
+  },
+  "errors": []
+}

@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "id": "microscope",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "glassware",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "notes",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "meter",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "polonium",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "radium",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "notebook",
+      "hit": true,
+      "visible": true
+    },
+    {
+      "id": "awards",
+      "hit": true,
+      "visible": true
+    }
+  ],
+  "sideDistances": [
+    {
+      "id": "notebook",
+      "distance": 1.8652881814883189,
+      "hit": true,
+      "panel": true
+    },
+    {
+      "id": "radium",
+      "distance": 1.8686358660798523,
+      "hit": true,
+      "panel": true
+    }
+  ],
+  "closing": {
+    "hit": true,
+    "closed": true
+  },
+  "report": {
+    "camera": [
+      0,
+      0,
+      0
+    ],
+    "panelY": 0,
+    "drawCalls": 33,
+    "triangles": 101009,
+    "textures": 65
+  },
+  "errors": []
+}

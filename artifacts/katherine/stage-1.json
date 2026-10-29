@@ -1,0 +1,15 @@
+{
+  "report": {
+    "stage": 1,
+    "camera": [
+      0,
+      0,
+      0
+    ],
+    "calls": 10,
+    "triangles": 8452,
+    "textures": 3,
+    "targets": 0
+  },
+  "errors": []
+}

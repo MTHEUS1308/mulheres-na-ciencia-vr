@@ -1,0 +1,201 @@
+{
+  "trace": [
+    {
+      "event": "image-detected",
+      "time": 6192.5,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "gaze-start",
+      "time": 6192.700000000186,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "gaze-complete",
+      "time": 8007.4000000003725,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "activation-callback",
+      "time": 8007.5,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "state-expanded",
+      "time": 8007.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "expanded": true
+    },
+    {
+      "event": "animation-clock",
+      "time": 8007.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "frameTime": 8007,
+      "previousTime": 8007.600000000559,
+      "delta": -0.6000000005587935
+    },
+    {
+      "event": "modal-invisible-at-activation",
+      "time": 8007.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "visible": false,
+      "amount": 0,
+      "frameTime": 8007,
+      "animationClock": 8007,
+      "focus": {
+        "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      }
+    },
+    {
+      "event": "gaze-target-left",
+      "time": 8024.100000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "focus-auto-close",
+      "time": 8024.200000000186,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "amount": 0,
+      "focus": {
+        "target": null
+      }
+    },
+    {
+      "event": "image-close",
+      "time": 8024.200000000186,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "focusReason": "close-called"
+    },
+    {
+      "event": "image-detected",
+      "time": 8040.800000000745,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "gaze-start",
+      "time": 8040.800000000745,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "gaze-complete",
+      "time": 9857.400000000373,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "activation-callback",
+      "time": 9857.5,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "state-expanded",
+      "time": 9857.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "expanded": true
+    },
+    {
+      "event": "animation-clock",
+      "time": 9857.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "frameTime": 9856.9,
+      "previousTime": 9857.600000000559,
+      "delta": -0.7000000005591573
+    },
+    {
+      "event": "modal-invisible-at-activation",
+      "time": 9857.600000000559,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "visible": false,
+      "amount": 0,
+      "frameTime": 9856.9,
+      "animationClock": 9856.9,
+      "focus": {
+        "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      }
+    },
+    {
+      "event": "gaze-target-left",
+      "time": 9874,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "focus-auto-close",
+      "time": 9874,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "amount": 0,
+      "focus": {
+        "target": null
+      }
+    },
+    {
+      "event": "image-close",
+      "time": 9874,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+      "focusReason": "close-called"
+    },
+    {
+      "event": "image-detected",
+      "time": 9890.800000000745,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    },
+    {
+      "event": "gaze-start",
+      "time": 9890.900000000373,
+      "target": "d7fc79b5-2e68-41a3-84cd-e81a200a868d",
+      "role": "image-hotspot",
+      "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+    }
+  ],
+  "state": {
+    "ready": true,
+    "expanded": false,
+    "progress": 0,
+    "imageOpacity": 0,
+    "originalOpacity": 1
+  }
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-BR">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.svg"><title>Diagnóstico no Android · Museu VR</title>
+<style>
+:root{color-scheme:dark;font:16px system-ui;background:#211f1a;color:#f1e9d6}body{max-width:760px;margin:auto;padding:24px}h1{font:32px Georgia}p,li{line-height:1.6}button,a.button{display:inline-block;padding:14px 18px;margin:8px 4px 8px 0;background:#e3d2ae;color:#211f1a;border:0;border-radius:6px;font:inherit;text-decoration:none}table{width:100%;border-collapse:collapse;margin:22px 0}td,th{text-align:left;border-bottom:1px solid #ffffff28;padding:12px 6px;font-size:14px;overflow-wrap:anywhere}td{font-variant-numeric:tabular-nums}#status{padding:16px;border:1px solid #a08a60;border-radius:6px}small{color:#d1c2a6}code{overflow-wrap:anywhere}a{color:#e3d2ae}
+</style></head>
+<body><p>MUSEU VR · FERRAMENTA LOCAL</p><h1>Teste os sensores no seu Android</h1><p>Esta página não muda o laboratório. Faça o teste com o aparelho na mão antes de colocá-lo nos óculos. Dados numéricos ou eventos simulados, sozinhos, não aprovam o rastreamento físico.</p>
+<p id="status" role="status">Pressione “Iniciar teste” e autorize os sensores, se solicitado.</p>
+<button id="start">Iniciar teste</button><button id="stop">Parar teste</button><a class="button" href="/sites/marie-curie/">Abrir laboratório</a>
+<table><tbody>
+<tr><th>Contexto seguro</th><td id="secure"></td></tr><tr><th>Endereço</th><td id="origin"></td></tr><tr><th>Permissão de orientação</th><td id="permission">Não solicitada</td></tr>
+<tr><th>Eventos de orientação do navegador</th><td id="count">0</td></tr><tr><th>Último evento de orientação</th><td id="age">Aguardando</td></tr><tr><th>alpha / beta / gamma (graus)</th><td id="angles">—</td></tr><tr><th>Velocidade angular (°/s)</th><td id="rates">—</td></tr><tr><th>Eventos de movimento do navegador</th><td id="motion">0</td></tr><tr><th>Orientação da tela</th><td id="screen"></td></tr><tr><th>Eventos sintéticos ignorados</th><td id="synthetic">0</td></tr>
+</tbody></table>
+<ol><li>Confirme “Contexto seguro: sim”. Se aparecer “não”, use USB/localhost ou HTTPS com certificado confiável.</li><li>Inicie o teste. Sem tocar na tela, gire lentamente o celular à esquerda/direita e incline para cima/baixo. Os ângulos devem variar e os eventos continuar chegando.</li><li>Se houver velocidade angular disponível, os valores devem reagir ao giro e ficar próximos de zero quando o aparelho estiver parado. A disponibilidade depende do navegador e do aparelho.</li><li>Abra o laboratório, toque em “Entrar no laboratório” e “Ativar sensores”. Sem arrastar, confirme que o cenário acompanha a rotação e permanece no mesmo lugar.</li><li>Gire para horizontal, ative “Óculos Cardboard” e recentralize olhando para a frente. Confirme a tela dividida, alinhamento dos olhos e seleção de placas.</li></ol>
+<p><strong>Teste físico pendente.</strong> A API de orientação pode combinar diferentes sensores; esta página não certifica a presença de um giroscópio físico nem aprova o funcionamento dentro dos óculos automaticamente.</p>
+<p>HTTPS por Wi-Fi: <a href="/__dev/ca.crt">baixar certificado público da CA local</a>. Instale somente se você gerou esta CA e conferiu a impressão digital no computador. Para USB/localhost, nenhum certificado é necessário.</p>
+<script type="module" src="./sensors.js"></script></body></html>

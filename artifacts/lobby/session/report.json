@@ -1,0 +1,1183 @@
+{
+  "origin": "http://localhost:5173",
+  "initial": {
+    "quality": 2,
+    "duration": 1200,
+    "fullscreen": true,
+    "contexts": 1,
+    "intro": false,
+    "memory": {
+      "geometries": 84,
+      "textures": 23
+    }
+  },
+  "portalSamples": [
+    {
+      "frame": {
+        "id": "marie-curie",
+        "elapsed": 1133.2999999999997,
+        "progress": 0.3777666666666666,
+        "duration": 3000
+      },
+      "display": 0.3777666666666666,
+      "focus": 0.5360038156629523,
+      "id": "lobby",
+      "durations": [
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        }
+      ],
+      "afterLookAway": 0.0018186655767984208
+    },
+    {
+      "frame": {
+        "id": "hedy-lamarr",
+        "elapsed": 1200,
+        "progress": 0.4,
+        "duration": 3000
+      },
+      "display": 0.4,
+      "focus": 0.5531656039799069,
+      "id": "lobby",
+      "durations": [
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        }
+      ],
+      "afterLookAway": 0.0023648189789184067
+    },
+    {
+      "frame": {
+        "id": "katherine-johnson",
+        "elapsed": 1150,
+        "progress": 0.38333333333333336,
+        "duration": 3000
+      },
+      "display": 0.38333333333333336,
+      "focus": 0.5412080936643985,
+      "id": "lobby",
+      "durations": [
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "marie-curie",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "hedy-lamarr",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        },
+        {
+          "id": "katherine-johnson",
+          "duration": 3000
+        }
+      ],
+      "afterLookAway": 0.0022953900511585752
+    }
+  ],
+  "transitions": [
+    {
+      "id": "marie-curie",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 109,
+        "textures": 47
+      },
+      "programs": 23
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 94,
+        "textures": 24
+      },
+      "programs": 18
+    },
+    {
+      "id": "hedy-lamarr",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 2.9802322387695312e-8,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 112,
+        "textures": 44
+      },
+      "programs": 27
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 94,
+        "textures": 24
+      },
+      "programs": 20
+    },
+    {
+      "id": "katherine-johnson",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 116,
+        "textures": 29
+      },
+      "programs": 29
+    },
+    {
+      "id": "lobby",
+      "busy": false,
+      "stereo": true,
+      "fullscreen": true,
+      "identity": true,
+      "document": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "orientation": 0,
+      "duration": 1200,
+      "quality": 2,
+      "contexts": 1,
+      "canvases": 1,
+      "enableCalls": 0,
+      "children": 1,
+      "memory": {
+        "geometries": 95,
+        "textures": 25
+      },
+      "programs": 22
+    }
+  ],
+  "images": [
+    {
+      "site": "marie-curie",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          173,
+          174
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "site": "hedy-lamarr",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          176,
+          172
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "site": "katherine-johnson",
+      "original": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "away": {
+        "ready": true,
+        "expanded": true,
+        "phase": "open",
+        "modalActive": true,
+        "modalVisible": true,
+        "activationCount": 1,
+        "progress": 1,
+        "imageOpacity": 1,
+        "originalOpacity": 1
+      },
+      "pixels": {
+        "eyes": 2,
+        "cursorDraws": 2,
+        "delta": [
+          204,
+          203
+        ],
+        "cursorDepthTest": false,
+        "cursorOrder": 1000,
+        "cursorIsTarget": false,
+        "camera": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "memory": [
+    {
+      "site": "marie-curie",
+      "geometries": 94,
+      "textures": 24,
+      "programs": 18
+    },
+    {
+      "site": "hedy-lamarr",
+      "geometries": 94,
+      "textures": 24,
+      "programs": 20
+    },
+    {
+      "site": "katherine-johnson",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 0,
+      "site": "marie-curie",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 0,
+      "site": "hedy-lamarr",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 0,
+      "site": "katherine-johnson",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 1,
+      "site": "marie-curie",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 1,
+      "site": "hedy-lamarr",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    },
+    {
+      "cycle": 1,
+      "site": "katherine-johnson",
+      "geometries": 95,
+      "textures": 25,
+      "programs": 22
+    }
+  ],
+  "draws": [
+    {
+      "cycle": 0,
+      "site": "marie-curie",
+      "calls": 22
+    },
+    {
+      "cycle": 0,
+      "site": "hedy-lamarr",
+      "calls": 26
+    },
+    {
+      "cycle": 0,
+      "site": "katherine-johnson",
+      "calls": 36
+    },
+    {
+      "cycle": 1,
+      "site": "marie-curie",
+      "calls": 22
+    },
+    {
+      "cycle": 1,
+      "site": "hedy-lamarr",
+      "calls": 26
+    },
+    {
+      "cycle": 1,
+      "site": "katherine-johnson",
+      "calls": 39
+    }
+  ],
+  "beforeRoutes": {
+    "navigations": [
+      "http://localhost:5173/"
+    ],
+    "sameDocument": [
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/marie-curie/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/hedy-lamarr/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/katherine-johnson/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/marie-curie/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/hedy-lamarr/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/katherine-johnson/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/marie-curie/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/hedy-lamarr/",
+      "http://localhost:5173/",
+      "http://localhost:5173/sites/katherine-johnson/",
+      "http://localhost:5173/"
+    ],
+    "activations": [
+      {
+        "role": "marie-curie",
+        "elapsed": 3054.800000000745,
+        "time": 8508.599999999627
+      },
+      {
+        "role": "meter",
+        "elapsed": 3192.699999999255,
+        "time": 19939.099999999627
+      },
+      {
+        "role": "image-hotspot",
+        "elapsed": 1562.1000000014901,
+        "time": 25105.900000000373
+      },
+      {
+        "role": "image-return",
+        "elapsed": 1327,
+        "time": 36327.79999999888
+      },
+      {
+        "role": "panel-close",
+        "elapsed": 1318.800000000745,
+        "time": 41617
+      },
+      {
+        "role": "lobby-return",
+        "elapsed": 1482,
+        "time": 45030.699999999255
+      },
+      {
+        "role": "hedy-lamarr",
+        "elapsed": 3051.0999999996275,
+        "time": 51926.09999999963
+      },
+      {
+        "role": "invention",
+        "elapsed": 1492.2999999988824,
+        "time": 60763.199999999255
+      },
+      {
+        "role": "image-hotspot",
+        "elapsed": 1724.9000000003725,
+        "time": 65283.40000000037
+      },
+      {
+        "role": "image-return",
+        "elapsed": 1546.4000000003725,
+        "time": 77450
+      },
+      {
+        "role": "panel-close",
+        "elapsed": 1572.0999999996275,
+        "time": 82248.79999999888
+      },
+      {
+        "role": "lobby-return",
+        "elapsed": 1574.5,
+        "time": 85352.29999999888
+      },
+      {
+        "role": "katherine-johnson",
+        "elapsed": 3006.0999999996275,
+        "time": 92139
+      },
+      {
+        "role": "earth",
+        "elapsed": 1387.9000000003725,
+        "time": 99105.59999999963
+      },
+      {
+        "role": "image-hotspot",
+        "elapsed": 1238.9000000003725,
+        "time": 101179
+      },
+      {
+        "role": "image-return",
+        "elapsed": 1253.0999999996275,
+        "time": 107144.19999999925
+      },
+      {
+        "role": "panel-close",
+        "elapsed": 1361.199999999255,
+        "time": 109403.69999999925
+      },
+      {
+        "role": "lobby-return",
+        "elapsed": 1247.2000000011176,
+        "time": 111290.90000000037
+      },
+      {
+        "role": "vr-settings",
+        "elapsed": 1256.2000000011176,
+        "time": 161774
+      },
+      {
+        "role": "quality-option",
+        "elapsed": 1194.4000000003725,
+        "time": 163123
+      },
+      {
+        "role": "vr-settings",
+        "elapsed": 1247.7999999988824,
+        "time": 164555.69999999925
+      },
+      {
+        "role": "quality-option",
+        "elapsed": 1256.5999999996275,
+        "time": 165958
+      }
+    ],
+    "trace": [
+      {
+        "event": "modal-created",
+        "time": 21474,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "modal": "13be5ff5-543f-4735-9c52-ce427c925ef7",
+        "visible": false
+      },
+      {
+        "event": "image-detected",
+        "time": 23546.299999998882,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      },
+      {
+        "event": "gaze-start",
+        "time": 23546.699999999255,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      },
+      {
+        "event": "gaze-complete",
+        "time": 25105.099999999627,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      },
+      {
+        "event": "activation-callback",
+        "time": 25105.599999999627,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      },
+      {
+        "event": "state-expanded",
+        "time": 25106,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "phase": "opening",
+        "activations": 1
+      },
+      {
+        "event": "modal-visible",
+        "time": 25106.299999998882,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "modal": "13be5ff5-543f-4735-9c52-ce427c925ef7",
+        "visible": true,
+        "phase": "opening"
+      },
+      {
+        "event": "gaze-target-left",
+        "time": 25872,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+      },
+      {
+        "event": "modal-open",
+        "time": 27429.699999999255,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "phase": "open",
+        "visible": true,
+        "progress": 1
+      },
+      {
+        "event": "image-close",
+        "time": 36327.90000000037,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "phase": "closing"
+      },
+      {
+        "event": "modal-hidden",
+        "time": 38328,
+        "target": "cc2a31a9-adfb-4c92-8a4c-d266fc2392bb",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+        "phase": "idle",
+        "visible": false,
+        "progress": 0
+      },
+      {
+        "event": "modal-created",
+        "time": 61938.59999999963,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "modal": "2390b6f7-2616-4373-a000-5489017b2f29",
+        "visible": false
+      },
+      {
+        "event": "image-detected",
+        "time": 63558.90000000037,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "gaze-start",
+        "time": 63559.09999999963,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "gaze-complete",
+        "time": 65283,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "activation-callback",
+        "time": 65283.29999999888,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "state-expanded",
+        "time": 65283.5,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "phase": "opening",
+        "activations": 1
+      },
+      {
+        "event": "modal-visible",
+        "time": 65283.5,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "modal": "2390b6f7-2616-4373-a000-5489017b2f29",
+        "visible": true,
+        "phase": "opening"
+      },
+      {
+        "event": "gaze-target-left",
+        "time": 66057.09999999963,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "modal-open",
+        "time": 67823.19999999925,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "phase": "open",
+        "visible": true,
+        "progress": 1
+      },
+      {
+        "event": "image-close",
+        "time": 77450.09999999963,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "phase": "closing"
+      },
+      {
+        "event": "modal-hidden",
+        "time": 79130.5,
+        "target": "ba2e7271-7b80-44fb-bc43-922b01a7f96e",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+        "phase": "idle",
+        "visible": false,
+        "progress": 0
+      },
+      {
+        "event": "modal-created",
+        "time": 99347.69999999925,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "modal": "01a31083-52d9-46e8-9155-f4e3821e2a8a",
+        "visible": false
+      },
+      {
+        "event": "image-detected",
+        "time": 99941.29999999888,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "gaze-start",
+        "time": 99941.59999999963,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "gaze-complete",
+        "time": 101178.59999999963,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "activation-callback",
+        "time": 101178.90000000037,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "state-expanded",
+        "time": 101179.09999999963,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "phase": "opening",
+        "activations": 1
+      },
+      {
+        "event": "modal-visible",
+        "time": 101179.29999999888,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "modal": "01a31083-52d9-46e8-9155-f4e3821e2a8a",
+        "visible": true,
+        "phase": "opening"
+      },
+      {
+        "event": "gaze-target-left",
+        "time": 101483.09999999963,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+      },
+      {
+        "event": "modal-open",
+        "time": 101894.69999999925,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "phase": "open",
+        "visible": true,
+        "progress": 1
+      },
+      {
+        "event": "image-close",
+        "time": 107144.19999999925,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "phase": "closing"
+      },
+      {
+        "event": "modal-hidden",
+        "time": 107600.09999999963,
+        "target": "93549b14-5752-4267-ad2f-518906093ff5",
+        "role": "image-hotspot",
+        "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+        "phase": "idle",
+        "visible": false,
+        "progress": 0
+      }
+    ],
+    "diagnostics": {
+      "active": "lobby",
+      "busy": false,
+      "cached": [
+        "lobby"
+      ],
+      "transitions": [
+        {
+          "from": null,
+          "to": "lobby",
+          "time": 2305.4000000003725
+        },
+        {
+          "from": "lobby",
+          "to": "marie-curie",
+          "time": 14600.099999999627
+        },
+        {
+          "from": "marie-curie",
+          "to": "lobby",
+          "time": 46140.90000000037
+        },
+        {
+          "from": "lobby",
+          "to": "hedy-lamarr",
+          "time": 56865.90000000037
+        },
+        {
+          "from": "hedy-lamarr",
+          "to": "lobby",
+          "time": 86474.69999999925
+        },
+        {
+          "from": "lobby",
+          "to": "katherine-johnson",
+          "time": 96983.59999999963
+        },
+        {
+          "from": "katherine-johnson",
+          "to": "lobby",
+          "time": 111725.5
+        },
+        {
+          "from": "lobby",
+          "to": "marie-curie",
+          "time": 118683.5
+        },
+        {
+          "from": "marie-curie",
+          "to": "lobby",
+          "time": 121169.69999999925
+        },
+        {
+          "from": "lobby",
+          "to": "hedy-lamarr",
+          "time": 126810
+        },
+        {
+          "from": "hedy-lamarr",
+          "to": "lobby",
+          "time": 129643.5
+        },
+        {
+          "from": "lobby",
+          "to": "katherine-johnson",
+          "time": 134773.69999999925
+        },
+        {
+          "from": "katherine-johnson",
+          "to": "lobby",
+          "time": 136006.59999999963
+        },
+        {
+          "from": "lobby",
+          "to": "marie-curie",
+          "time": 143010.19999999925
+        },
+        {
+          "from": "marie-curie",
+          "to": "lobby",
+          "time": 145468.90000000037
+        },
+        {
+          "from": "lobby",
+          "to": "hedy-lamarr",
+          "time": 150966.69999999925
+        },
+        {
+          "from": "hedy-lamarr",
+          "to": "lobby",
+          "time": 153781.29999999888
+        },
+        {
+          "from": "lobby",
+          "to": "katherine-johnson",
+          "time": 158688.40000000037
+        },
+        {
+          "from": "katherine-johnson",
+          "to": "lobby",
+          "time": 159948.29999999888
+        }
+      ],
+      "disposals": [
+        {
+          "id": "marie-curie",
+          "geometries": 40,
+          "materials": 36,
+          "textures": 60,
+          "renderTargets": 1
+        },
+        {
+          "id": "hedy-lamarr",
+          "geometries": 39,
+          "materials": 33,
+          "textures": 35,
+          "renderTargets": 1
+        },
+        {
+          "id": "katherine-johnson",
+          "geometries": 89,
+          "materials": 83,
+          "textures": 26,
+          "renderTargets": 1
+        },
+        {
+          "id": "marie-curie",
+          "geometries": 40,
+          "materials": 36,
+          "textures": 60,
+          "renderTargets": 1
+        },
+        {
+          "id": "hedy-lamarr",
+          "geometries": 39,
+          "materials": 33,
+          "textures": 35,
+          "renderTargets": 1
+        },
+        {
+          "id": "katherine-johnson",
+          "geometries": 89,
+          "materials": 83,
+          "textures": 26,
+          "renderTargets": 1
+        },
+        {
+          "id": "marie-curie",
+          "geometries": 40,
+          "materials": 36,
+          "textures": 60,
+          "renderTargets": 1
+        },
+        {
+          "id": "hedy-lamarr",
+          "geometries": 39,
+          "materials": 33,
+          "textures": 35,
+          "renderTargets": 1
+        },
+        {
+          "id": "katherine-johnson",
+          "geometries": 89,
+          "materials": 83,
+          "textures": 26,
+          "renderTargets": 1
+        }
+      ]
+    }
+  },
+  "direct": [
+    {
+      "id": "marie-curie",
+      "quality": 2,
+      "duration": 1200,
+      "contexts": 1,
+      "intro": false,
+      "canvases": 1
+    },
+    {
+      "id": "hedy-lamarr",
+      "quality": 2,
+      "duration": 1200,
+      "contexts": 1,
+      "intro": false,
+      "canvases": 1
+    },
+    {
+      "id": "katherine-johnson",
+      "quality": 2,
+      "duration": 1200,
+      "contexts": 1,
+      "intro": false,
+      "canvases": 1
+    }
+  ],
+  "preserved": 60,
+  "errors": []
+}

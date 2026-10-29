@@ -1,0 +1,225 @@
+{
+  "report": [
+    {
+      "id": "marie-curie",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 102,
+        "textures": 64
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 77,
+        "textures": 21
+      }
+    },
+    {
+      "id": "hedy-lamarr",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 94,
+        "textures": 41
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 77,
+        "textures": 21
+      }
+    },
+    {
+      "id": "katherine-johnson",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 103,
+        "textures": 29
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 77,
+        "textures": 21
+      }
+    },
+    {
+      "history": "back",
+      "id": "katherine-johnson",
+      "preserved": true
+    },
+    {
+      "history": "forward",
+      "id": "lobby",
+      "preserved": true
+    }
+  ],
+  "errors": [],
+  "diagnostics": {
+    "active": "lobby",
+    "busy": false,
+    "cached": [
+      "lobby"
+    ],
+    "transitions": [
+      {
+        "from": null,
+        "to": "lobby",
+        "time": 3227.4000000003725
+      },
+      {
+        "from": "lobby",
+        "to": "marie-curie",
+        "time": 14863.900000000373
+      },
+      {
+        "from": "marie-curie",
+        "to": "lobby",
+        "time": 23376.800000000745
+      },
+      {
+        "from": "lobby",
+        "to": "hedy-lamarr",
+        "time": 30977.5
+      },
+      {
+        "from": "hedy-lamarr",
+        "to": "lobby",
+        "time": 37944.40000000037
+      },
+      {
+        "from": "lobby",
+        "to": "katherine-johnson",
+        "time": 44908.300000000745
+      },
+      {
+        "from": "katherine-johnson",
+        "to": "lobby",
+        "time": 47345.800000000745
+      },
+      {
+        "from": "lobby",
+        "to": "katherine-johnson",
+        "time": 54358.09999999963
+      },
+      {
+        "from": "katherine-johnson",
+        "to": "lobby",
+        "time": 57106
+      }
+    ],
+    "disposals": [
+      {
+        "id": "marie-curie",
+        "geometries": 40,
+        "materials": 36,
+        "textures": 60,
+        "renderTargets": 1
+      },
+      {
+        "id": "hedy-lamarr",
+        "geometries": 39,
+        "materials": 33,
+        "textures": 35,
+        "renderTargets": 1
+      },
+      {
+        "id": "katherine-johnson",
+        "geometries": 89,
+        "materials": 83,
+        "textures": 26,
+        "renderTargets": 1
+      },
+      {
+        "id": "katherine-johnson",
+        "geometries": 89,
+        "materials": 83,
+        "textures": 26,
+        "renderTargets": 1
+      }
+    ]
+  }
+}

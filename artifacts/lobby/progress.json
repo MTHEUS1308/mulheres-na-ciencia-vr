@@ -1,0 +1,198 @@
+{
+  "report": [
+    {
+      "id": "marie-curie",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 83,
+        "textures": 65
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 58,
+        "textures": 22
+      }
+    },
+    {
+      "id": "hedy-lamarr",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 75,
+        "textures": 42
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 58,
+        "textures": 22
+      }
+    },
+    {
+      "id": "katherine-johnson",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 85,
+        "textures": 30
+      }
+    },
+    {
+      "id": "lobby",
+      "stereo": true,
+      "renderer": true,
+      "camera": true,
+      "controls": true,
+      "cardboard": true,
+      "origin": true,
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "duration": 1200,
+      "quality": 2,
+      "canvases": 1,
+      "memory": {
+        "geometries": 58,
+        "textures": 22
+      }
+    }
+  ],
+  "errors": [],
+  "diagnostics": {
+    "active": "lobby",
+    "busy": false,
+    "cached": [
+      "lobby"
+    ],
+    "transitions": [
+      {
+        "from": null,
+        "to": "lobby",
+        "time": 1827.2000000011176
+      },
+      {
+        "from": "lobby",
+        "to": "marie-curie",
+        "time": 8641.599999999627
+      },
+      {
+        "from": "marie-curie",
+        "to": "lobby",
+        "time": 13889.099999999627
+      },
+      {
+        "from": "lobby",
+        "to": "hedy-lamarr",
+        "time": 18777.200000001118
+      },
+      {
+        "from": "hedy-lamarr",
+        "to": "lobby",
+        "time": 23945.099999999627
+      },
+      {
+        "from": "lobby",
+        "to": "katherine-johnson",
+        "time": 29020.300000000745
+      },
+      {
+        "from": "katherine-johnson",
+        "to": "lobby",
+        "time": 31011.800000000745
+      }
+    ],
+    "disposals": [
+      {
+        "id": "marie-curie",
+        "geometries": 40,
+        "materials": 36,
+        "textures": 60,
+        "renderTargets": 1
+      },
+      {
+        "id": "hedy-lamarr",
+        "geometries": 39,
+        "materials": 33,
+        "textures": 35,
+        "renderTargets": 1
+      },
+      {
+        "id": "katherine-johnson",
+        "geometries": 89,
+        "materials": 83,
+        "textures": 26,
+        "renderTargets": 1
+      }
+    ]
+  }
+}

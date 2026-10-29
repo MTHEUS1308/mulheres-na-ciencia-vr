@@ -1,0 +1,958 @@
+{
+  "reports": [
+    {
+      "site": "katherine-johnson",
+      "key": "earth",
+      "stereo": false,
+      "identity": {
+        "hotspot": "69a77214-83a5-46ee-9898-43efd50abc42",
+        "face": "1e532244-ef6a-40e0-93c2-c70b2411dfa2"
+      },
+      "opened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "away": {
+        "frames": 139,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "returned": {
+        "frames": 148,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": false,
+          "phase": "idle",
+          "modalActive": false,
+          "modalVisible": false,
+          "activationCount": 1,
+          "progress": 0,
+          "imageOpacity": 0,
+          "originalOpacity": 1
+        }
+      },
+      "reopened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 2,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "pixels": {
+        "eyes": 1,
+        "delta": [
+          201
+        ],
+        "camera": [
+          0,
+          0,
+          0
+        ],
+        "cursor": false
+      },
+      "trace": [
+        {
+          "event": "modal-created",
+          "time": 4172.0999999996275,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "modal": "b4b2cfe7-bf70-419d-89dd-c55a33fc2d1c",
+          "visible": false
+        },
+        {
+          "event": "image-detected",
+          "time": 4184.4000000003725,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 4184.700000000186,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 5982.9000000003725,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 5983.4000000003725,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 5983.9000000003725,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "opening",
+          "activations": 1
+        },
+        {
+          "event": "modal-visible",
+          "time": 5984.200000000186,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "modal": "b4b2cfe7-bf70-419d-89dd-c55a33fc2d1c",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 5999.700000000186,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 6316.5999999996275,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        },
+        {
+          "event": "image-close",
+          "time": 13232.5,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "closing"
+        },
+        {
+          "event": "modal-hidden",
+          "time": 13549.299999999814,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "idle",
+          "visible": false,
+          "progress": 0
+        },
+        {
+          "event": "image-detected",
+          "time": 13682.299999999814,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 13682.5,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 15482.5,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 15482.799999999814,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 15483,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "opening",
+          "activations": 2
+        },
+        {
+          "event": "modal-visible",
+          "time": 15483.200000000186,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "modal": "b4b2cfe7-bf70-419d-89dd-c55a33fc2d1c",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 15499.099999999627,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 15815.900000000373,
+          "target": "69a77214-83a5-46ee-9898-43efd50abc42",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/illustrations.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "site": "katherine-johnson",
+      "key": "biography",
+      "stereo": true,
+      "identity": {
+        "hotspot": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+        "face": "e4a78274-b4fe-4084-be0b-1325330a780a"
+      },
+      "opened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "away": {
+        "frames": 139,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "returned": {
+        "frames": 148,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": false,
+          "phase": "idle",
+          "modalActive": false,
+          "modalVisible": false,
+          "activationCount": 1,
+          "progress": 0,
+          "imageOpacity": 0,
+          "originalOpacity": 1
+        }
+      },
+      "reopened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 2,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "pixels": {
+        "eyes": 2,
+        "delta": [
+          216,
+          216
+        ],
+        "camera": [
+          0,
+          0,
+          0
+        ],
+        "cursor": true
+      },
+      "trace": [
+        {
+          "event": "modal-created",
+          "time": 21720.200000000186,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "modal": "2777e0e0-86f9-4590-8a9b-565b684f8592",
+          "visible": false
+        },
+        {
+          "event": "image-detected",
+          "time": 21731.599999999627,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "gaze-start",
+          "time": 21731.799999999814,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 23532,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "activation-callback",
+          "time": 23532.200000000186,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "state-expanded",
+          "time": 23532.400000000373,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "opening",
+          "activations": 1
+        },
+        {
+          "event": "modal-visible",
+          "time": 23532.5,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "modal": "2777e0e0-86f9-4590-8a9b-565b684f8592",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 23548.900000000373,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "modal-open",
+          "time": 23865.400000000373,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        },
+        {
+          "event": "image-close",
+          "time": 30781.799999999814,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "closing"
+        },
+        {
+          "event": "modal-hidden",
+          "time": 31098.599999999627,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "idle",
+          "visible": false,
+          "progress": 0
+        },
+        {
+          "event": "image-detected",
+          "time": 31231.799999999814,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "gaze-start",
+          "time": 31232,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 33048.5,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "activation-callback",
+          "time": 33048.799999999814,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "state-expanded",
+          "time": 33049,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "opening",
+          "activations": 2
+        },
+        {
+          "event": "modal-visible",
+          "time": 33049.09999999963,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "modal": "2777e0e0-86f9-4590-8a9b-565b684f8592",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 33065.40000000037,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full"
+        },
+        {
+          "event": "modal-open",
+          "time": 33381.90000000037,
+          "target": "25f6f133-cde7-4c59-94f0-b6d473ddea86",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/katherine-johnson/media/katherine-nasa.webp#tile=full",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "site": "marie-curie",
+      "key": "meter",
+      "stereo": false,
+      "identity": {
+        "hotspot": "15447f02-293a-4091-92f1-6067461d12f1",
+        "face": "d25bc682-d945-4e11-abc9-74a97973be84"
+      },
+      "opened": {
+        "frames": 284,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "away": {
+        "frames": 139,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "returned": {
+        "frames": 148,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": false,
+          "phase": "idle",
+          "modalActive": false,
+          "modalVisible": false,
+          "activationCount": 1,
+          "progress": 0,
+          "imageOpacity": 0,
+          "originalOpacity": 1
+        }
+      },
+      "reopened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 2,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "pixels": {
+        "eyes": 1,
+        "delta": [
+          112
+        ],
+        "camera": [
+          0,
+          0,
+          0
+        ],
+        "cursor": false
+      },
+      "trace": [
+        {
+          "event": "modal-created",
+          "time": 5928.799999999814,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "modal": "5fac46a8-1e3b-454c-95a6-a9146ab8d357",
+          "visible": false
+        },
+        {
+          "event": "image-detected",
+          "time": 5965.0999999996275,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 5965.0999999996275,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 7768.700000000186,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 7769,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 7769.200000000186,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "opening",
+          "activations": 1
+        },
+        {
+          "event": "modal-visible",
+          "time": 7769.200000000186,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "modal": "5fac46a8-1e3b-454c-95a6-a9146ab8d357",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 7785.899999999441,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 8102.0999999996275,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        },
+        {
+          "event": "image-close",
+          "time": 15001.799999999814,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "closing"
+        },
+        {
+          "event": "modal-hidden",
+          "time": 15318.899999999441,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "idle",
+          "visible": false,
+          "progress": 0
+        },
+        {
+          "event": "image-detected",
+          "time": 15468.5,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 15468.899999999441,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 17285.299999999814,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 17285.599999999627,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 17285.700000000186,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "opening",
+          "activations": 2
+        },
+        {
+          "event": "modal-visible",
+          "time": 17285.89999999944,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "modal": "5fac46a8-1e3b-454c-95a6-a9146ab8d357",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 17301.700000000186,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 17618.5,
+          "target": "15447f02-293a-4091-92f1-6067461d12f1",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/marie-curie/media/science-illustrations-atlas.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        }
+      ]
+    },
+    {
+      "site": "hedy-lamarr",
+      "key": "invention",
+      "stereo": false,
+      "identity": {
+        "hotspot": "1c1336d2-b389-4814-a292-a1d378937fa8",
+        "face": "f15cdc5a-9843-4058-add1-74869e13d84e"
+      },
+      "opened": {
+        "frames": 284,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "away": {
+        "frames": 139,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 1,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "returned": {
+        "frames": 148,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": false,
+          "phase": "idle",
+          "modalActive": false,
+          "modalVisible": false,
+          "activationCount": 1,
+          "progress": 0,
+          "imageOpacity": 0,
+          "originalOpacity": 1
+        }
+      },
+      "reopened": {
+        "frames": 283,
+        "restartedWhileActive": 0,
+        "state": {
+          "ready": true,
+          "expanded": true,
+          "phase": "open",
+          "modalActive": true,
+          "modalVisible": true,
+          "activationCount": 2,
+          "progress": 1,
+          "imageOpacity": 1,
+          "originalOpacity": 1
+        }
+      },
+      "pixels": {
+        "eyes": 1,
+        "delta": [
+          225
+        ],
+        "camera": [
+          0,
+          0,
+          0
+        ],
+        "cursor": false
+      },
+      "trace": [
+        {
+          "event": "modal-created",
+          "time": 4340.299999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "modal": "b43b84b6-c895-4024-9ffd-234bab5ba42c",
+          "visible": false
+        },
+        {
+          "event": "image-detected",
+          "time": 4370.399999999441,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 4370.5,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 6171.699999999255,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 6172.0999999996275,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 6172.299999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "opening",
+          "activations": 1
+        },
+        {
+          "event": "modal-visible",
+          "time": 6172.5999999996275,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "modal": "b43b84b6-c895-4024-9ffd-234bab5ba42c",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 6188.199999999255,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 6504.899999999441,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        },
+        {
+          "event": "image-close",
+          "time": 13421.599999999627,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "closing"
+        },
+        {
+          "event": "modal-hidden",
+          "time": 13737.899999999441,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "idle",
+          "visible": false,
+          "progress": 0
+        },
+        {
+          "event": "image-detected",
+          "time": 13871.299999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-start",
+          "time": 13871.599999999627,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "gaze-complete",
+          "time": 15670.799999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "activation-callback",
+          "time": 15671.099999999627,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "state-expanded",
+          "time": 15671.199999999255,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "opening",
+          "activations": 2
+        },
+        {
+          "event": "modal-visible",
+          "time": 15671.199999999255,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "modal": "b43b84b6-c895-4024-9ffd-234bab5ba42c",
+          "visible": true,
+          "phase": "opening"
+        },
+        {
+          "event": "gaze-target-left",
+          "time": 15687.799999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0"
+        },
+        {
+          "event": "modal-open",
+          "time": 16004.299999999814,
+          "target": "1c1336d2-b389-4814-a292-a1d378937fa8",
+          "role": "image-hotspot",
+          "image": "http://localhost:5173/assets/hedy-lamarr/media/illustrations.webp#tile=0",
+          "phase": "open",
+          "visible": true,
+          "progress": 1
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

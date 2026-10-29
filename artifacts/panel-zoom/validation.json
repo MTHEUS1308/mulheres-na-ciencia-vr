@@ -1,0 +1,781 @@
+{
+  "reports": [
+    {
+      "key": "microscope",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "glassware",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "notes",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "notes",
+      "page": 1,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "meter",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "meter",
+      "page": 1,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "meter",
+      "page": 2,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "polonium",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "polonium",
+      "page": 1,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "polonium",
+      "page": 2,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "radium",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "notebook",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    },
+    {
+      "key": "awards",
+      "page": 0,
+      "regions": [
+        {
+          "x": 0,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0.3,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": -0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0.36,
+          "y": 0,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        },
+        {
+          "x": 0,
+          "y": -0.1,
+          "delta": 0,
+          "hit": true,
+          "opacity": 1
+        }
+      ],
+      "width": 1.5475263157894739,
+      "distance": 1.65,
+      "imageView": {
+        "ready": true,
+        "expanded": false,
+        "progress": 0,
+        "imageOpacity": 0,
+        "originalOpacity": 1
+      },
+      "transparentDepthWrite": false,
+      "faceTarget": false
+    }
+  ],
+  "stereo": {
+    "camera": [
+      0,
+      0,
+      0
+    ],
+    "enabled": true,
+    "eyeValidation": "stereo-validation.json"
+  },
+  "errors": []
+}

@@ -1,0 +1,72 @@
+{
+  "panels": [
+    {
+      "key": "invention",
+      "pages": 2,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "hopping",
+      "pages": 2,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "naval-map",
+      "pages": 1,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "ship",
+      "pages": 1,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "patent",
+      "pages": 1,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "biography",
+      "pages": 1,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "legacy",
+      "pages": 1,
+      "hit": true,
+      "visible": true,
+      "closed": true
+    }
+  ],
+  "stereo": {
+    "camera": [
+      0,
+      0,
+      0
+    ],
+    "cursor": true,
+    "drawCalls": 26,
+    "triangles": 64000
+  },
+  "marie": {
+    "panel": true,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "errors": []
+}

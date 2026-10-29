@@ -1,0 +1,339 @@
+{
+  "opened": [
+    {
+      "key": "earth",
+      "hit": "earth",
+      "title": "Equações que levam ao espaço",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "speed",
+      "hit": "speed",
+      "title": "Velocidade e raio",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "gravity",
+      "hit": "gravity",
+      "title": "Aceleração para o centro",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "coordinates",
+      "hit": "coordinates",
+      "title": "Descrever a posição",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "return",
+      "hit": "return",
+      "title": "Órbita e volta à Terra",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "biography",
+      "hit": "biography",
+      "title": "Katherine Johnson",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "nasa",
+      "hit": "nasa",
+      "title": "Da NACA à NASA",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "glenn",
+      "hit": "glenn",
+      "title": "Conferir os números",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "mathematics",
+      "hit": "mathematics",
+      "title": "Geometria para explorar",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "legacy",
+      "hit": "legacy",
+      "title": "Um legado que abre caminhos",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "rocket",
+      "hit": "rocket",
+      "title": "Mercury: caminho até a órbita",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "capsule",
+      "hit": "capsule",
+      "title": "Uma missão, muitas verificações",
+      "visible": true,
+      "closed": true
+    },
+    {
+      "key": "orbit",
+      "hit": "orbit",
+      "title": "Onde estará a cápsula?",
+      "visible": true,
+      "closed": true
+    }
+  ],
+  "launch": {
+    "hit": "launch",
+    "ignition": {
+      "phase": "ignition",
+      "count": 1,
+      "height": 0
+    },
+    "ascent": {
+      "phase": "ascent",
+      "count": 1,
+      "height": 0.21599999999999997
+    },
+    "reset": {
+      "phase": "idle",
+      "count": 1,
+      "height": 0
+    },
+    "held": {
+      "phase": "idle",
+      "count": 1,
+      "height": 0
+    },
+    "panel": false
+  },
+  "rotation": {
+    "earth": true,
+    "orbit": true,
+    "planets": true,
+    "camera": [
+      0,
+      0,
+      0
+    ]
+  },
+  "views": [
+    {
+      "quality": 1,
+      "view": "front",
+      "calls": 37,
+      "triangles": 25684,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1,
+      "view": "right",
+      "calls": 35,
+      "triangles": 22342,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1,
+      "view": "rear",
+      "calls": 29,
+      "triangles": 9498,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1,
+      "view": "left",
+      "calls": 38,
+      "triangles": 10684,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1,
+      "view": "down",
+      "calls": 10,
+      "triangles": 9600,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1.5,
+      "view": "front",
+      "calls": 39,
+      "triangles": 31636,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1.5,
+      "view": "right",
+      "calls": 35,
+      "triangles": 22342,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1.5,
+      "view": "rear",
+      "calls": 29,
+      "triangles": 9498,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1.5,
+      "view": "left",
+      "calls": 38,
+      "triangles": 10684,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 1.5,
+      "view": "down",
+      "calls": 10,
+      "triangles": 9600,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 2,
+      "view": "front",
+      "calls": 39,
+      "triangles": 31636,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 2,
+      "view": "right",
+      "calls": 35,
+      "triangles": 22342,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 2,
+      "view": "rear",
+      "calls": 29,
+      "triangles": 9498,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 2,
+      "view": "left",
+      "calls": 38,
+      "triangles": 10684,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "quality": 2,
+      "view": "down",
+      "calls": 10,
+      "triangles": 9600,
+      "camera": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "preserved": [
+    "sites/marie-curie/main.js",
+    "sites/marie-curie/main-table-content.js",
+    "sites/marie-curie/laboratory.js",
+    "sites/marie-curie/content.js",
+    "sites/marie-curie/index.html",
+    "sites/marie-curie/package.json",
+    "sites/hedy-lamarr/main.js",
+    "sites/hedy-lamarr/laboratory.js",
+    "sites/hedy-lamarr/content.js",
+    "sites/hedy-lamarr/index.html",
+    "sites/hedy-lamarr/package.json",
+    "public/assets/marie-curie/irradiance.webp",
+    "public/assets/marie-curie/scene-metadata.json",
+    "public/assets/marie-curie/room-reflections.hdr",
+    "public/assets/marie-curie/irradiance.png",
+    "public/assets/marie-curie/laboratory.glb",
+    "public/assets/marie-curie/media/research-notes.webp",
+    "public/assets/marie-curie/media/curie-electrometer-wellcome.jpg",
+    "public/assets/marie-curie/media/credits.html",
+    "public/assets/marie-curie/media/science-illustrations-atlas.png",
+    "public/assets/marie-curie/media/science-illustrations-atlas.webp",
+    "public/assets/hedy-lamarr/irradiance.webp",
+    "public/assets/hedy-lamarr/scene-metadata.json",
+    "public/assets/hedy-lamarr/room-reflections.hdr",
+    "public/assets/hedy-lamarr/irradiance.png",
+    "public/assets/hedy-lamarr/laboratory.glb",
+    "public/assets/hedy-lamarr/media/patent-1942.webp",
+    "public/assets/hedy-lamarr/media/credits.html",
+    "public/assets/hedy-lamarr/media/timeline.webp",
+    "public/assets/hedy-lamarr/media/naval-chart.webp",
+    "public/assets/hedy-lamarr/media/illustrations.webp",
+    "shared/vr/cardboard-mode.js",
+    "shared/vr/gaze-controls.js",
+    "shared/vr/orientation-controls.js",
+    "shared/vr/fixed-camera.js",
+    "shared/vr/gaze-debug.js",
+    "vite.config.js",
+    "shared/ui/info-panel.js",
+    "shared/ui/image-viewer.js",
+    "shared/ui/image-modal-state.js"
+  ],
+  "errors": []
+}
